@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.mobSign3upas-para{
+    font-size: 16px;
+    max-width: 100%;
+    width: auto;
+}
+.mobSign3upas-para p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+.main-mob-flags{
+    font-size: 16px;
+    max-width: 100%;
+    width: auto;
+}
+.mob-flags-country{
+    font-size: 16px;
+    max-width: 100%;
+    width: auto;
+}
+.mob-flags-country img{
+    
+        width: 100%; 
+        height: auto;
+    
+}
+.mob-flags-country p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+
+
+@media (max-width:600px) {
+    .main-mobsign3{
+        height: 40rem;
+    }
+    .mob-flags-country p{
+        font-family: 'Product Sans', sans-serif;
+    font-size: calc(5px + 2vw);
+font-weight: 700;
+line-height: 16.61px;
+text-align: center;
+
+
+    }
+.main-mob-flags{
+    max-width: 396.29px;
+height: auto;
+gap: 5.43px;
+opacity: 0px;
+}
+.mob-flags-country{
+    width: 84.9px;
+height: 100.59px;
+gap: 0px;
+border-radius: 4.61px;
+border: 1.85px solid #000000;
+opacity: 0px;
+}
+.mob-flags-country img{
+  
+   margin-left: 8px;
+   margin-top: 5px;
+    max-width: 59.71px;
+height: 45.24px;
+top: 18.09px;
+left: 13.57px;
+gap: 0px;
+border-radius: 9.05px;
+opacity: 0px;
+transition: all 0.6s;
+}
+.mob-flags-country img:hover{
+    transform: scale(0.9);
+}
+
+.uk img{
+    
+   margin-left: 8px;
+   margin-top: 12px;
+    height: 30px;
+}
+
+.uk p{
+    margin-top: 1.2rem;
+}
+
+
+
+    .mobSign3upas-para{
+        
+           /* margin-left: 5px; */
+        max-width: 360px;
+        
+height: auto;
+gap: 0px;
+opacity: 0px;
+
+    }
+.mobSign3upas-para p{
+    margin-top: 2rem;
+    margin-left: 5px;
+    font-family: 'Product Sans', sans-serif;
+    font-size: calc(14px + 2vw);
+font-weight: 500;
+line-height: 33.93px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+
+}

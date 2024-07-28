@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.mobSign5-para p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+.mobSign5-para .subpara{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+.sign5jus-exp-mob p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+@media (max-width:600px) {
+
+    .mobSign5-para p{
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-left: 5px;
+        margin-top: 25px;
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(10px + 2vw);
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+        color: #000000;
+
+    }
+    .mobSign5-para .subpara{
+        margin-top: -18px;
+        margin-left: 5px;
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(4px + 2vw);
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #000000;
+    }
+
+    
+    .sign5jus-exp-mob{
+        margin-right: auto;
+        margin-left: 5px;
+     max-width: 500px;
+     height: 30px;
+     opacity: 0px;
+
+ }
+
+ .sign5jus-exp-mob p{
+     /* margin-left: auto;
+     margin-right: auto; */
+     margin-left: 5px;
+     margin-top: -1px;
+     font-family: 'Product Sans', sans-serif;
+     font-size: calc(6px + 2vw);
+     font-weight: 400;
+     line-height: 28px;
+     text-align: left;
+     color: #323A46;
+ }
+
+
+}

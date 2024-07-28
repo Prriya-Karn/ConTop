@@ -1,0 +1,810 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.qual-header{
+    width: 261px;
+height: 42px;
+top: 101px;
+left: 117px;
+
+}
+
+.qual-header h1{
+    font-family: 'Product Sans Medium', sans-serif;
+font-size: 35px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.qual-button{
+width: 392px;
+height: 56px;
+top: 163px;
+left: 84px;
+border-radius: 53px;
+background-color: #D9D9D966;
+margin-top: 1.6rem;
+
+}
+
+.qual-button .qual-my-quali{
+    border: none;
+    width: 253px;
+    height: 56px;
+padding: 10px, 25px, 10px, 25px;
+border-radius: 45px;
+gap: 17px;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+
+background-color: #C53183;
+color: white;
+}
+
+.qual-button .qual-my-quali:hover{
+    background-color: #C53183;
+    color:white;
+}
+.qual-button .qual-my-pro{
+    border: none;
+    font-family: 'Product Sans Medium', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: 2px;
+}
+/* body{
+    background-color: black;
+} */
+
+
+.qual-prof-quali{
+    gap: 48rem;
+}    
+.qual-prof-quali button{
+width: 110px;
+height: 43px;
+top: 239px;
+left: 1051px;
+padding: 10px, 30px, 10px, 30px;
+border-radius: 36px;
+gap: 10px;
+background-color: #C53183;
+color: white;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 19px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.qual-prof-quali button:hover{
+background-color: #C53183;
+color: white;  
+}
+
+.qual-prof-quali h1{
+width: 500px;
+height: 30px;
+top: 246px;
+left: 115px;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 2rem;
+margin-top: 2rem;
+
+}
+
+.qual-card{
+gap: 2rem;
+overflow-y: hidden;
+}
+.qual-card-inner{
+padding: 1.4rem;
+border: 1px solid black;
+width: 387.39px;
+height: 120px;
+padding: 18.19px, 18.19px, 23.65px, 18.19px;
+border-radius: 9.1px;
+border: 0.91px;
+gap: 10rem;    
+border: 0.91px solid #00000026;
+}
+.qual-card-inner h1{
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.qual-country{
+margin-top: -1.2rem;
+gap: 2rem;
+}
+.qual-card-inner p{
+font-family: 'Product Sans', sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.datanalyst-qual{
+gap: 1rem;
+}
+.datanalyst-qual img{
+width: 31.22px;
+height: 29.48px;
+top: 1.73px;
+left: 2.89px;
+overflow-y: hidden;
+}
+.qual-card-1{
+width: 1,202px;
+height:250.96px;
+top: 500px;
+left: 117px;
+gap: 2rem;
+margin-bottom: 5rem;
+
+overflow-y: scroll;
+overflow-y: hidden;
+}
+.qual-inner-card-1{
+
+padding: 1rem;
+
+/* width: 386.92px; */
+width: 90rem;
+height: 210.98px;
+padding: 18.19px, 18.19px, 23.65px, 18.19px;
+border-radius: 9.1px;
+border: 0.91px solid #00000026;
+gap: 9.1px;
+min-height: 200px;
+min-width: 400px;
+margin-right: 5px;
+
+
+}
+.qual-country p{
+margin-top: 1rem;
+font-family: 'Product Sans', sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.qual-in-card1{
+gap: 1rem;
+}
+.qual-in-card1 p{
+font-family: 'Product Sans', sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.masterinai{
+gap: 1rem;
+}
+.masterinai h1{
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.masterinai img{
+width: 40.22px;
+height: 40.48px;
+position: relative;
+top: -8px;
+left: 2.89px;
+
+
+}
+
+.qual-input-1{
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 23px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.main-myqual-modal{
+    height: 42rem !important;
+
+}
+.main-home-modal .input{
+    width: 440px !important;
+height: 44px !important;
+border-radius: 10px !important;
+border: 2px solid #00000026;
+margin-left: 1rem;
+}
+
+.label-modal-myqua{
+    margin-left: 1rem;
+    font-family: 'Product Sans Medium', sans-serif;
+font-size: 19px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.end{
+    margin-left: 13rem;
+}
+.main-home-modal{
+    line-height: 2.2rem;
+}
+.main-home-modal .start-end{
+    width: 210px;
+height: 44px;
+border-radius: 10px;
+border: 2px solid #00000026;
+position: relative;
+left:1rem;
+}
+
+.start-end-modal{
+    gap: 20px;
+}
+
+.modal-qual-form{
+    gap: 6rem;
+}
+.inner-check-qual{
+    gap: 3rem;
+    margin-left: -1rem;
+}
+.checkmyqua{
+    position: relative;
+    top: 8px;
+}
+
+.modal-qual-header h1{
+    font-family: 'Product Sans Medium', sans-serif !important;
+font-size: 23px !important;
+font-weight: 500 !important;
+line-height: 36px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+margin-right: 1rem !important;
+
+}
+
+.modal-qual-header .modal-qual-close{
+    position: relative;
+    right: 2rem;
+}
+.place{
+    gap: 2rem;
+}
+
+ label{
+    font-family: 'Product Sans Medium', sans-serif !important;
+    font-size: 19px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.scholar-myqua{
+    gap: 5rem;
+    margin-top: 2rem;
+}
+.scholar-myqua .form-check{
+    gap: 3rem;
+}
+.scholar-myqua .form-check input{
+    position: relative;
+    top:-0.2rem;
+    width: 25px;
+height: 25px;
+border-radius: 5px;
+border: 3px solid #00000026;
+
+}
+.scholar-myqua .form-check input:checked{
+    background-color: #C53183;   
+}
+
+
+.radio-myqua{
+    gap: 2rem;
+}
+.radio-myqua .radio-modal-myqua{
+    position: relative;
+    gap:1rem;
+}
+.radio-modal-myqua-1{
+    position: relative;
+    left: 10.7rem;
+    gap:1rem;
+}
+.radio-modal-myqua input{
+    position: relative;
+    top:-0.2rem;
+    width: 25px;
+height: 25px;
+border-radius: 5px;
+border: 3px solid #00000026;
+}
+
+.radio-modal-myqua .form-check-input:checked
+{
+    background-color: #C53183;
+    border: none;
+    box-shadow: none;
+    
+}
+.radio-modal-myqua-1 label{
+    position: relative;
+    top: 3px;
+}
+.modal-button-qua{
+    margin-left: 10rem !important;
+}
+.modal-button-qua button{
+    padding-left: 1.5rem;
+}
+.scholar-myqua .form-check label{
+    font-weight: 500;
+}
+
+
+.main-myqual-modal-another{
+    height:32rem !important;
+}
+
+.main-myqual-modal-another .modal-button-qua{
+    margin-left: 11.4rem !important;
+}
+
+
+
+/* responsive tab */
+
+
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .qual-header{
+        width: 261px;
+    height: 42px;
+    
+    top: 101px;
+    left: 150px;
+    margin-left: 2rem;
+    }
+    
+    .qual-header h1{
+        font-family: 'Product Sans Medium', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    
+    top: 101px;
+    left: 150px;
+   
+    
+    }
+    
+    .qual-button{
+        margin-left: 1.7rem;
+    width: 328px;
+    height: 56px;
+    top: 163px;
+    left: 84px;
+    border-radius: 53px;
+    background-color: #D9D9D966;
+    margin-top: 1.6rem;
+    
+    }
+    
+    .qual-button .qual-my-quali{
+        border: none;
+        width: 210px;
+        height: 56px;
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 45px;
+    gap: 17px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    
+    background-color: #C53183;
+    color: white;
+    }
+    
+    .qual-button .qual-my-quali:hover{
+        background-color: #C53183;
+        color:white;
+    }
+    .qual-button .qual-my-pro{
+        border: none;
+        font-family: 'Product Sans Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 5px;
+    }
+    /* body{
+        background-color: black;
+    } */
+    
+    
+    .qual-prof-quali{
+        gap: 4rem;
+    }    
+    .qual-prof-quali button{
+    width: 90px;
+    height: 37px;
+    top: 239px;
+    left: 10px;
+    padding: 10px, 30px, 10px, 30px;
+    border-radius: 36px;
+    margin-top: 1rem;
+    background-color: #C53183;
+    color: white;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .qual-prof-quali button:hover{
+    background-color: #C53183;
+    color: white;  
+    }
+    
+    .qual-prof-quali h1{
+        margin-left: 2rem;
+        
+    width: 500px;
+    height: 30px;
+    top: 246px;
+    left: 115px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+    }
+    
+    .qual-card{
+    gap: 1rem;
+    overflow-y: hidden;
+   
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    }
+    .qual-card-inner{
+    padding: 1.4rem;
+    border: 1px solid black;
+    width: 320px;
+    height: 120px;
+    padding: 18.19px, 18.19px, 23.65px, 18.19px;
+    border-radius: 9.1px;
+    border: 0.91px;
+    gap: 10rem;    
+    border: 0.91px solid #00000026;
+    }
+    .qual-card-inner h1{
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .qual-country{
+    margin-top: -1.2rem;
+    gap: 2rem;
+    }
+    .qual-card-inner p{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .datanalyst-qual{
+    gap: 1rem;
+    }
+    .datanalyst-qual img{
+    width: 31.22px;
+    height: 29.48px;
+    top: 1.73px;
+    left: 2.89px;
+    overflow-y: hidden;
+    }
+    .qual-card-1{
+    width: 1,202px;
+overflow-x: scroll;
+
+    height:250.96px;
+    top: 500px;
+    left: 117px;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    
+    overflow-y: scroll;
+    overflow-y: hidden;
+    }
+    .qual-inner-card-1{
+    
+    padding: 1rem;
+    
+    /* width: 386.92px; */
+    width: 80rem;
+  
+    height: 210.98px;
+    padding: 18.19px, 18.19px, 23.65px, 18.19px;
+    border-radius: 9.1px;
+    border: 0.91px solid #00000026;
+    gap: 9.1px;
+    min-height: 200px;
+    min-width: 400px;
+    margin-right: 5px;
+    
+    
+    }
+    .qual-country p{
+    margin-top: 1rem;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .qual-in-card1{
+    gap: 1rem;
+    }
+    .qual-in-card1 p{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    
+    
+    .masterinai{
+    gap: 1rem;
+    }
+    .masterinai h1{
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .masterinai img{
+    width: 40.22px;
+    height: 40.48px;
+    position: relative;
+    top: -8px;
+    left: 2.89px;
+    
+    
+    }
+    
+    .qual-input-1{
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    .main-myqual-modal{
+        height: 42rem !important;
+    
+    }
+    .main-home-modal .input{
+        width: 440px !important;
+    height: 44px !important;
+    border-radius: 10px !important;
+    border: 2px solid #00000026;
+    margin-left: 1rem;
+    }
+    
+    .label-modal-myqua{
+        margin-left: 1rem;
+        font-family: 'Product Sans Medium', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .end{
+        margin-left: 13rem;
+    }
+    .main-home-modal{
+        line-height: 2.2rem;
+    }
+    .main-home-modal .start-end{
+        width: 210px;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid #00000026;
+    position: relative;
+    left:1rem;
+    }
+    
+    .start-end-modal{
+        gap: 20px;
+    }
+    
+    .modal-qual-form{
+        gap: 6rem;
+    }
+    .inner-check-qual{
+        gap: 3rem;
+        margin-left: -1rem;
+    }
+    .checkmyqua{
+        position: relative;
+        top: 8px;
+    }
+    
+    .modal-qual-header h1{
+        font-family: 'Product Sans Medium', sans-serif !important;
+    font-size: 23px !important;
+    font-weight: 500 !important;
+    line-height: 36px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    margin-right: 1rem !important;
+    
+    }
+    
+    .modal-qual-header .modal-qual-close{
+        position: relative;
+        right: 2rem;
+    }
+    .place{
+        gap: 2rem;
+    }
+    
+     label{
+        font-family: 'Product Sans Medium', sans-serif !important;
+        font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .scholar-myqua{
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+    .scholar-myqua .form-check{
+        gap: 3rem;
+    }
+    .scholar-myqua .form-check input{
+        position: relative;
+        top:-0.2rem;
+        width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid #00000026;
+    
+    }
+    .scholar-myqua .form-check input:checked{
+        background-color: #C53183;   
+    }
+    
+    
+    .radio-myqua{
+        gap: 2rem;
+    }
+    .radio-myqua .radio-modal-myqua{
+        position: relative;
+        gap:1rem;
+    }
+    .radio-modal-myqua-1{
+        position: relative;
+        left: 10.7rem;
+        gap:1rem;
+    }
+    .radio-modal-myqua input{
+        position: relative;
+        top:-0.2rem;
+        width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid #00000026;
+    }
+    
+    .radio-modal-myqua .form-check-input:checked
+    {
+        background-color: #C53183;
+        border: none;
+        box-shadow: none;
+        
+    }
+    .radio-modal-myqua-1 label{
+        position: relative;
+        top: 3px;
+    }
+    .modal-button-qua{
+        margin-left: 10rem !important;
+    }
+    .modal-button-qua button{
+        padding-left: 1.5rem;
+    }
+    .scholar-myqua .form-check label{
+        font-weight: 500;
+    }
+    
+    
+    .main-myqual-modal-another{
+        height:32rem !important;
+    }
+    
+    .main-myqual-modal-another .modal-button-qua{
+        margin-left: 11.4rem !important;
+    }
+    
+}
+
+

@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+.hero-grad{
+  width:650px;height:700px; position:absolute;top:1rem;left:-30rem;z-index:-1
+}
+
+}

@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.your-analytics-box-1{
+    gap: 10rem;
+    width: 615px;
+height: 155.46px;
+top: 118px;
+left: 119px;
+border-radius: 13.84px;
+border: 3.91px solid transparent;
+
+border-image: linear-gradient(95.75deg, #31AEFF 0%, #4075FF 48.48%, #C53183 99.97%);
+border-image-slice: 1;
+
+}
+.totalearning{
+    padding: 1rem;
+    width: 170px;
+height: 116.57px;
+gap: 26.57px;
+
+}
+.totallearning-1{
+    margin-left: 2rem;
+}
+.totallearning-1 h1{
+   margin-left: -1rem;
+}
+.totallearning-2 h1{
+    margin-left: 2.5rem;
+ }
+.totallearning-2{
+    margin-left: 2rem;
+}
+.totalearning h1
+{
+    width: 170px;
+height: 60px;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 49px;
+font-weight: 500;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.your-analytics-box-1 p{
+    width: 154px;
+height: 30px;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 23px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.your-analytics-box-2
+{
+
+    width: 615px;
+height: 127px;
+top: 292px;
+left: 119px;
+border-radius: 13.84px;
+border: 1.38px solid #00000026;
+
+gap: 1rem;
+}
+
+.currentcharge-1{
+    width: 292px;
+height: 30px;
+margin-top: 3rem;
+margin-left: 2rem;
+}
+
+.currentcharge-1 p{
+    font-family: 'Product Sans Medium', sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.currentcharge-2{
+    width: 119.05px;
+height: 31.14px;
+border: 1.38px;
+margin-top: 3rem;
+margin-left: 2rem;
+}
+
+.currentcharge-2 p
+{
+    width: 64px;
+height: 30px;
+top: 5.88px;
+left: 338.53px;
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 28px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.updatebutton{
+    margin-top: 2.9rem;
+margin-left: 1rem;
+  
+gap: 13.84px;
+transition: all 0.6s;
+}
+.updatebutton:active{
+    transform: scale(0.9,0.9);
+}
+
+.updatebutton button{
+    background-color: #108CFF;
+    border: none;
+color: white;
+    width: 90px;
+height: 35px;
+font-family: 'Product Sans Medium', sans-serif;
+
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.updatebutton button:hover{
+    background-color: #108CFF;
+    color: white;
+}
+.updatebutton button:active{
+    color: white;
+    background-color: #108CFF;
+}
+
+.inneryouranal{
+    display: flex;
+    gap: -1rem;
+}
+
+
+.left-card{
+    margin-top: 2rem;
+gap: 3rem;
+display: flex;
+width: 627px;
+height: 166px;
+border-radius: 12.71px;
+border: 1.73px solid #00000026;
+}
+.left-card-image{
+   
+    padding: 6px;
+}
+.left-card-image img{
+    width: 179.1px;
+height: 152.52px;
+top: 6.93px;
+left: 8.09px;
+border-radius: 12.71px;
+border: 1.73px solid #00000026;
+transition: all 0.6s;
+}
+
+.left-card-image img:hover{
+    transform: scale(0.9,0.9);
+    cursor: pointer;
+}
+
+.left-card-title{
+    width: 133px;
+height: 27px;
+top: 519px;
+left: 346px;
+
+}
+
+.left-card-title h5{
+    font-family: 'Product Sans Medium', sans-serif;
+font-size: 22px;
+margin-top: 1rem;
+margin-left: -1.4rem;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+}
+.left-card-text{
+    width:142.15px;
+height:75.43px;
+top: 564px;
+left: 346.17px;
+gap: 3.71px;
+margin-top: 1.5rem;
+}
+
+.left-card-text .left-card-card1 p{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.left-card-text .left-card-card1 img{
+    margin-top: -0.2rem;
+}
+.left-card-text .left-card-card1{
+   margin-top: 8px;
+}
+.left-card-card1 .clock{
+    margin-left: -0.1rem;
+}
+
+
+.left-card-button{
+    width: 124.7px;
+    height: 41.85px;
+    top: 561px;
+    left: 582.88px;
+    padding: 12.42px, 24.85px, 12.42px, 24.85px;
+    border-radius: 7.45px;
+    gap: 12.42px;
+    background-color: #108CFF;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    transition: all 0.6s;
+}
+
+.left-card-button button{
+    font-family: 'Product Sans', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+color: white;
+margin-top: 7px;
+margin-left: 0.6rem;
+border: none;
+}
+
+.left-card-button:active{
+    transform: scale(0.9,0.9);
+    color: white;
+}
+.left-card-button button:hover{
+    color: white;
+}
+
+
+.home-resp-box-mentor{
+    height: 40rem;
+}
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .your-analytics-box-1{
+        gap: 1rem;
+        width: 400px;
+    height: 150px;
+    top: 118px;
+    left: 119px;
+    border-radius: 13.84px;
+    border: 3.91px solid transparent;
+    
+    border-image: linear-gradient(95.75deg, #31AEFF 0%, #4075FF 48.48%, #C53183 99.97%);
+    border-image-slice: 1;
+    
+    }
+    .totalearning{
+        padding: 1rem;
+        width: 150px;
+    height: 116.57px;
+    gap: 26.57px;
+    
+    }
+    .totallearning-1{
+        margin-left: 2rem;
+    }
+    .totallearning-1 h1{
+       margin-left: -1rem;
+    }
+    .totallearning-2 h1{
+        margin-left: 2.5rem;
+     }
+    .totallearning-2{
+        margin-left: 1rem;
+    }
+    .totalearning h1
+    {
+        width: 170px;
+    height: 60px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .your-analytics-box-1 p{
+        width: 154px;
+    height: 30px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    
+    
+    .your-analytics-box-2
+    {
+    
+        width: 400px;
+    height: 127px;
+    top: 292px;
+    left: 119px;
+    border-radius: 13.84px;
+    border: 1.38px solid #00000026;
+    
+    gap: 1rem;
+    }
+    
+    .currentcharge-1{
+        width: 292px;
+    height: 30px;
+    margin-top: 3rem;
+    margin-left: -1.2rem;
+    }
+    
+    .currentcharge-1 p{
+        font-family: 'Product Sans Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    
+    .currentcharge-2{
+        width: 119.05px;
+    height: 31.14px;
+    border: 1.38px;
+    margin-top: 3rem;
+    margin-left: -2.3rem;
+    }
+    
+    .currentcharge-2 p
+    {
+        width: 64px;
+    height: 30px;
+    top: 5.88px;
+    left: 338.53px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    }
+    
+    .updatebutton{
+        margin-top: 2.9rem;
+    margin-left: -3rem;
+    gap: 13.84px;
+    transition: all 0.6s;
+    }
+    .updatebutton:active{
+        transform: scale(0.9,0.9);
+    }
+    
+    .updatebutton button{
+        background-color: #108CFF;
+        border: none;
+        padding-top: -2rem !important;
+    color: white;
+        width: 70px;
+    height: 30px;
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    }
+    
+    .updatebutton button:hover{
+        background-color: #108CFF;
+        color: white;
+    }
+    .updatebutton button:active{
+        color: white;
+        background-color: #108CFF;
+    }
+    
+    .inneryouranal{
+        display: flex;
+        gap: -1rem;
+    }
+    
+    
+    .left-card{
+        margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    width: 400px;
+    height: 166px;
+    border-radius: 12.71px;
+    border: 1.73px solid #00000026;
+    }
+
+    .home-resp-box-mentor h3{
+        margin-top: 2.5rem;
+    }
+    .left-card-image{
+       
+        padding: 6px;
+    }
+    .left-card-image img{
+        width: 250px !important;
+    height: 150.52px;
+    top: 6.93px;
+    left: 8.09px;
+    border-radius: 12.71px;
+    border: 1.73px solid #00000026;
+    transition: all 0.6s;
+    }
+    
+    .left-card-image img:hover{
+        transform: scale(0.9,0.9);
+        cursor: pointer;
+    }
+    
+    .left-card-title{
+        width: 120px;
+    height: 27px;
+    top: 519px;
+    left: 346px;
+    margin-left: 1rem;
+    }
+    
+    .left-card-title h5{
+        font-family: 'Product Sans Medium', sans-serif;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-left: -1.4rem;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    .left-card-text{
+        margin-left: 0.4rem;
+        width:142.15px;
+    height:75.43px;
+    top: 564px;
+    left: 346.17px;
+    gap: 3.71px;
+    margin-top: 1.5rem;
+    }
+    
+    .left-card-text .left-card-card1 p{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .left-card-text .left-card-card1 img{
+        margin-top: -0.2rem;
+    }
+    .left-card-text .left-card-card1{
+       margin-top: 8px;
+    }
+    .left-card-card1 .clock{
+        margin-left: -0.1rem;
+    }
+    
+    
+    .left-card-button{
+        width: 190px;
+        height: 30px;
+        top: 561px;
+        left: 582.88px;
+        padding: 12.42px, 24.85px, 12.42px, 24.85px;
+        border-radius: 7.45px;
+        gap: 12.42px;
+        background-color: #108CFF;
+       
+        margin-right: 2rem;
+        transition: all 0.6s;
+    }
+    
+    .left-card-button button{
+        font-family: 'Product Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: white;
+   margin-left: 1px;
+margin-top: 4px;
+    border: none;
+    }
+    
+    .left-card-button:active{
+        transform: scale(0.9,0.9);
+        color: white;
+    }
+    .left-card-button button:hover{
+        color: white;
+    }
+    
+    
+    .home-resp-box-mentor{
+        height: 50rem;
+    }
+    
+    
+
+
+}

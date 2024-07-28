@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+
+
+.imageLogoMobSign img{
+  
+        width: 100%; 
+        height: auto;
+    
+}
+
+.socialmobchoose img{
+    width: 100%; 
+    height: auto;
+
+}
+.socialmoblink{
+    width: 100%; 
+    height: auto;
+
+}
+.socialmoblink .google img{
+    width: 100%; 
+    height: auto;
+
+}
+.socialmoblink .facebook img{
+    width: 100%; 
+    height: auto;
+
+}
+.socialmoblink .linkedin img{
+    width: 100%; 
+    height: auto;
+
+}
+.signmob-head h1{
+    font-size: 5vw;
+line-height: 50px;
+height: auto;
+
+margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+.mobsignvia p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.emailmob .emailinp{
+margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+.passmob .emailpass{
+    margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+.signmob-sub p{
+
+    font-size: 5vw;
+line-height: 50px;
+height: auto;
+
+margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+.emailmob label{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.submob1 p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.passmob label{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.radiomob1 p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.radiomob2 p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.mob-community p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+/* responsive mobile start */
+
+
+@media (max-width:600px){
+    .imageLogoMobSign{
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 78.36px;
+height: auto;
+top: 26px;
+left: 176.04px;
+gap: 0px;
+opacity: 0px;
+
+    }
+
+
+    .signmob-head{
+        max-width: 161px;
+height: auto;
+gap: 39.24px;
+opacity: 0px;
+
+    }
+
+    .signmob-head h1{
+     
+        font-family: "Product Sans", sans-serif;
+        font-size: calc(25px + 2vw);
+font-weight: 700;
+line-height: 62.7px;
+text-align: left;
+
+    }
+    .signmob-sub{
+        max-width: 270px;
+height: auto;
+gap: 0px;
+opacity: 0px;
+color: #7E8B9E;
+    }
+
+    .signmob-sub p{
+        font-family: "Product Sans", sans-serif;
+        font-size: calc(5px + 2vw);
+font-weight: 400;
+line-height: 20.93px;
+letter-spacing: 0.01em;
+text-align: left;
+
+    }
+.approvImageMob{
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 93.57px;
+height: auto;
+top: 355.49px;
+left: 168.45px;
+gap: 0px;
+opacity: 0px;
+
+}
+    .emailmob{
+        max-width: 366.06px;
+height: auto;
+gap: 5.55px;
+opacity: 0px;
+
+    }
+    .passmob{
+        max-width: 366.06px;
+height: auto;
+gap: 5.55px;
+opacity: 0px;
+
+    }
+
+    .emailmob label{
+        font-family: "Product Sans", sans-serif;
+        font-size: calc(5px + 2vw);
+font-weight: 700;
+color: #323A46;
+line-height: 18.31px;
+text-align: left;
+
+    }
+
+    .passmob label{
+        font-family: "Product Sans", sans-serif;
+        font-size: calc(5px + 2vw);
+font-weight: 700;
+color: #323A46;
+line-height: 18.31px;
+text-align: left;
+
+    }
+
+    .emailmob .emailinp{
+        margin-top: -6px;
+        max-width: 366px;
+height: auto;
+padding: 10.46px 13.95px 10.46px 13.95px;
+gap: 6.93px;
+border-radius: 5.55px;
+border: 0.69px solid #CBD1D8;
+opacity: 0px;
+
+    }
+
+
+    .firstName{
+        width: 280px;
+height: auto;
+outline : none
+    }
+    .emailmob .emailinp input{
+        border: none;
+    }
+    
+    .emailmob .emailinp input:active{
+        border: none;
+        max-width: 366px;
+    }
+
+
+    .passmob .emailpass{
+        max-width: 366px;
+height: auto;
+padding: 10.46px 13.95px 10.46px 13.95px;
+gap: 6.93px;
+border-radius: 5.55px;
+border: 0.69px solid #CBD1D8;
+opacity: 0px;
+
+    }
+    .passmob .emailpass input{
+        border: none;
+    }
+    .passmob .emailpass input:active{
+        border: none;
+        max-width: 366px;
+    }
+.submob1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 366.2px;
+height: 18px;
+gap: 0px;
+opacity: 0px;
+
+}
+.submob1 p{
+    margin-top: 2rem;
+    font-family: "Product Sans", sans-serif;
+    font-size: calc(5px + 2vw);
+font-weight: 700;
+line-height: 18.31px;
+text-align: center;
+color: #3568FF;
+cursor: pointer;
+}
+.radiomob1{
+    margin-right: auto;
+    margin-left: auto;
+    max-width:350.53px;
+gap: 8.32px;
+opacity: 0px;
+
+}
+.radiomob2{
+    margin-right: auto;
+    margin-left: auto;
+    max-width:350.53px;
+gap: 8.32px;
+opacity: 0px;
+
+}
+.radiomob1 p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Product Sans", sans-serif;
+    font-size: calc(2px + 2vw);
+font-weight: 400;
+line-height: 21.97px;
+text-align: left;
+color: #7E8B9E;
+}
+.radiomob2 p{
+    font-family: "Product Sans", sans-serif;
+    font-size: calc(2px + 2vw);
+font-weight: 400;
+line-height: 21.97px;
+text-align: left;
+color: #7E8B9E;
+}
+.radiomob1 input{
+    
+    max-width: 12.21px;
+    
+    gap: 0px;
+    border-radius: 1.39px 0px 0px 0px;
+    border: 0.69px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.radiomob2 input{
+    
+    max-width: 12.21px;
+    
+    gap: 0px;
+    border-radius: 1.39px 0px 0px 0px;
+    border: 0.69px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.radiomob1 span{
+    color: #3568FF;
+    cursor: pointer;
+}
+.radiomob2 span{
+    color: #3568FF;
+    cursor: pointer;
+}
+.socialmobchoose img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobsignvia{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 366.2px;
+gap: 0px;
+opacity: 0px;
+
+}
+.mobsignvia p{
+   text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: calc(2px + 2vw);
+    color: #7E8B9E;
+    font-weight: 500;
+    line-height: 18.83px;   
+}
+.socialmoblink{
+    max-width: 366.2px;
+margin-left: auto;
+margin-right: auto;
+
+opacity: 0px;
+
+}
+.google{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:63.99px;
+height:46.56px;
+padding: 8.72px 17.44px 8.72px 17.44px;
+gap: 3.49px;
+border-radius: 5.55px;
+border: 0.69px solid #E0E3E8;
+opacity: 0px;
+
+}
+.facebook{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:63.99px;
+    height:46.56px;
+    padding: 8.72px 17.44px 8.72px 17.44px;
+    gap: 3.49px;
+    border-radius: 5.55px;
+    border: 0.69px solid #E0E3E8;
+    opacity: 0px;
+      
+}
+.linkedin{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:63.99px;
+    height:46.56px;
+    padding: 8.72px 17.44px 8.72px 17.44px;
+    gap: 3.49px;
+    border-radius: 5.55px;
+    border: 0.69px solid #E0E3E8;
+    opacity: 0px;
+    
+}
+.mob-community{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 316.09px;
+height: 22.68px;
+top: 830.32px;
+left: 56.62px;
+gap: 0px;
+opacity: 0px;
+
+}
+.mob-community p{
+   
+    font-family: "Product Sans Medium", sans-serif;
+    font-size: calc(2px + 2vw);
+font-weight: 400;
+line-height: 21.97px;
+text-align: left;
+color: #7E8B9E;
+
+}
+.mob-community span{
+    color: #3568FF;
+}
+}

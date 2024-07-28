@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x:hidden;
+}
+
+.imageLogoMob img{
+    width: 100%; 
+    height: auto;
+
+}
+
+
+
+.mob-head{
+font-size: 5vw;
+line-height: 50px;
+}
+
+   .subheadMobsection{
+
+    font-size: 5vw;
+    height: auto;
+    }
+
+
+    .signLogMob button{
+        
+        font-size: 16px;
+      margin: 10px;
+    max-width: 100%;
+    width: auto;
+    }
+
+
+/* responsive mobile start */
+
+@media (max-width:600px){
+    body {
+        font-size: 14rem;
+      }
+    .container{
+        max-width: 20rem;
+        margin-right: 2rem;
+    }
+    .imageLogoMob{
+        max-width: 155.74px;
+max-height: 157px;
+
+top: 127px;
+left: 137.36px;
+gap: 0px;
+opacity: 0px;
+margin-top: 5rem;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2rem;
+    }
+
+    /* .imageLogoMob img{
+        max-width: 155.74px;
+        height: auto;
+    } */
+
+    .imageLogoMob img {
+      
+        height: auto;
+        margin-left: auto;
+margin-right: auto;
+    }
+
+    .headMobsection{
+
+        margin: auto;
+        margin-bottom: 2rem;
+        /* background-color: black; */
+        visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+        max-width: 378.65px;
+max-height: 136px;
+top: 373px;
+left: 24.74px;
+gap: 0px;
+opacity: 0px;
+    }
+
+
+  .mob-head{
+    font-family: "Product Sans Black", sans-serif;
+/* font-size: 26.45px; */
+max-height: 7rem;
+    font-size: calc(14px + 3vw);
+font-weight: 700;
+line-height: 32.08px;
+text-align: center;
+color:#212121;
+
+  }
+  .mob-head span{
+    font-family: "DM Serif Display", serif;
+
+    font-size: calc(14px + 3vw);
+font-style: italic;
+font-weight: 400;
+line-height: 36.26px;
+text-align: center;
+color: #C53183;
+  }
+
+  .mob-head img{
+    position: relative;
+    left: -0.5rem;
+    top: -0.3rem;
+    max-width: 2.5rem;
+    height: 2rem;
+  }
+
+  .subheadMobsection{
+    margin-bottom: 2rem;
+    /* background-color: aqua; */
+    
+    max-width: 374px;
+max-height: 40px;
+top: 532px;
+left: 29px;
+gap: 0px;
+opacity: 0px;
+
+  }
+
+  .subheadMobsection p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Product Sans Black", sans-serif;
+    font-size: calc(1px + 3vw);
+font-weight: 400;
+line-height: 18.2px;
+text-align: center;
+padding: 1rem;
+
+  }
+.signLogMob{
+    
+    margin-top: 4rem;
+   
+    /* background-color: #C53183; */
+    /* max-width: 36rem; */
+    
+}
+
+.signLogMob button{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8rem; 
+padding: 15px 15px 15px 10px;
+
+gap: 10px;
+border-radius: 10px;
+opacity: 0px;
+background-color: #3070E6;
+color: white;
+height: 3rem;
+font-family: "Product Sans Black", sans-serif;
+
+width: 100vw; 
+
+font-weight: 700;
+line-height: 21.83px;
+
+
+}
+
+
+.signLogMob button:hover{
+    background-color: #3070E6;
+    color: white; 
+}
+.signLogMob button:active{
+    background-color: #4e7fda;
+}
+}
+
+
+
+
+
+
+/* responsive mobile end */

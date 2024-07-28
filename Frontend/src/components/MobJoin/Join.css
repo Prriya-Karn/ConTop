@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.mobjoinhead{
+    width: 100%; 
+    height: auto;
+}
+
+.mobjoinhead h1{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.emailmob label{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+
+   
+/* responsive mobile start */
+
+
+@media (max-width:600px){
+    .mobjoinhead{
+     
+        margin-top: 2rem;
+        max-width: 374px;
+height: auto;
+top: 98px;
+left: 27px;
+gap: 0px;
+opacity: 0px;
+
+    }
+    .mobjoinhead h1{
+        font-family: "Product Sans Medium", sans-serif;
+
+font-weight: 500;
+line-height: 27.38px;
+text-align: left;
+
+font-size: calc(12px + 2vw);
+
+
+    }
+.emailmob label{
+  color: black;
+  font-family: "Product Sans Medium", sans-serif;
+  font-size: calc(4px + 2vw);
+font-weight: 500;
+line-height: 18.57px;
+text-align: left;
+
+}
+
+.joinMob{
+
+    margin-bottom: -1rem;
+}
+
+
+.maininputmobjoin{
+    max-width: 369.88px;
+height: 25rem;
+top: 178.9px;
+left: 30.12px;
+gap: 0px;
+opacity: 0px;
+
+}
+.joinbut button{
+    margin-top: -5rem;
+    background-color: #C53183;
+}
+
+.joinbut button:hover{
+    background-color: #dc70ac;
+    cursor: pointer;
+}
+}

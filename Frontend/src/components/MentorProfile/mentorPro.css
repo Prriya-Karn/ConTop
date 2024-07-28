@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slotsPostbuttons{
+    display: flex;
+    width: 216px;
+height: 50px;
+top: 145px;
+left: 116px;
+border-radius: 10px;
+gap: 20px;
+
+
+font-family: 'Product Sans Medium', Arial, sans-serif;
+color: black;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.slotButton button{
+    width: 95px;
+    height: 50px;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #9797974D;
+
+    font-family: 'Product Sans Medium', Arial, sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.postButton{
+    width: 101px;
+height: 50px;
+padding: 10px, 20px, 10px, 20px;
+border-radius: 10px;
+gap: 10px;
+
+}
+.timezone{
+    font-family: 'Product Sans Medium', Arial, sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000080;
+margin-top: -1.7rem;
+}
+
+.localTimeMentor{
+    display: flex;
+
+    width:529px;
+height:86px;
+gap: 10px;
+
+}
+
+.innerlocaltimementor{
+    width:67px;
+height:86px;
+padding: 7px, 10px, 7px, 10px;
+border-radius: 5px;
+border: 1px solid #00000080
+}
+.innerlocaltimementor-Mon{
+    border: 2px solid #C53183;
+    color: #C5318380;
+    background: #C531831A;
+
+}
+
+.innerlocaltimementor-Mon .innerlocaltimeh4 p{
+    color: #C53183;
+}
+.innerlocaltimeh4 p{
+
+font-family: 'Product Sans Medium', Arial, sans-serif;
+color: #979797;
+
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+
+padding-top: 5px;
+}
+.innerlocaltimeh2 h4{
+
+
+font-family: 'Product Sans Medium', Arial, sans-serif;
+
+
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: -10px;
+}
+
+.innerlocaltimep{
+    font-family: Product Sans Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+margin-top: -10px;
+}
+
+.time-duration-section{
+    width:341px;
+height: 41px;
+gap: 19px;
+display: flex;
+}
+.timebuttonfirst{
+    border: 2px solid #C53183;
+    background: #C531831A;
+    width: 100px;
+    height:41px;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 37px;
+    gap: 10px;
+    text-align: center;
+}
+.timebuttonfirst button{
+    color: #C53183;
+    font-family: 'Product Sans Medium', Arial, sans-serif;
+
+font-size: 17px;
+font-weight: 500;
+}
+.timeButton{
+    width: 100px;
+height:41px;
+padding: 10px, 20px, 10px, 20px;
+border-radius: 37px;
+border: 2px;
+gap: 10px;
+border:2px solid #00000026;
+text-align: center;
+
+}
+.timeButton button{
+color: black;
+    font-family: 'Product Sans Medium', Arial, sans-serif;
+
+font-size: 17px;
+font-weight: 500;
+}
+
+.availableTimeButtons{
+    width: 586px;
+height: 141px;
+gap: 19px;
+display: flex;
+}
+
+.availablebutton button{
+gap: 10px;
+border: 2px solid #00000026;
+}
+.availabelbutton button{
+    width:185px;
+height: 6px;
+padding: 20px, 25px, 20px, 25px;
+border-radius: 10px;
+}
+
+.availablebuttonfirst{
+    border: 2px solid #C53183;
+    background: #C531831A;
+}

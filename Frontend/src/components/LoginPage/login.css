@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-para{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.login-para  span{
+
+    font-family: 'Product Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+  
+    letter-spacing: 0em;
+    text-align: left;
+}
+.abr{
+    position: relative;
+    top:-2rem;
+}
+
+.login-send{
+    font-family: 'Product Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color:#7E8B9E;
+}
+
+.login-send a{
+
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+text-decoration: none;
+color:#108CFF;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .login-para{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    
+    }
+    
+    .login-para  span{
+    
+        font-family: 'Product Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+      
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .abr{
+        position: relative;
+        top:-2rem;
+    }
+    
+    .login-send{
+        font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#7E8B9E;
+    }
+    
+    .login-send a{
+    
+        font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    color:#108CFF;
+    }
+   
+
+  }
+
+

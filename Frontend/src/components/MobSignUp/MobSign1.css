@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+.mobileSignPage{
+    display: none;
+}
+.mobSignupas h2{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.mobSignupas h3{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+
+.mobSignupas-para p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+
+.mob-label{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.degree-mob-label{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto; 
+}
+.specialization-mob{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto; 
+}
+.mobile-master-button{
+    font-size: 16px;
+    margin: auto;
+  max-width: 100%;
+  width: auto;
+}
+.specia-images-main{
+    font-size: 16px;
+    margin: auto;
+  max-width: 100%;
+  width: auto;
+}
+.image1-specia{
+    font-size: 16px;
+    margin: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+.image1-specia img{
+    width: 100%; 
+    height: auto;
+
+}
+.image1-specia p{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto; 
+}
+
+.course-mob-butt{
+    font-size: 16px;
+    margin: auto;
+  max-width: 100%;
+  width: auto;
+}
+.course-but-1{
+    font-size: 16px;
+  max-width: 100%;
+  width: auto;
+}
+
+.course-but-1 button{
+    font-size: 5vw;
+    line-height: 50px;
+    height: auto;
+    
+    margin: 10px;
+        max-width: 100%;
+        width: auto; 
+}
+.course-but-1 img{
+    width: 100%; 
+    height: auto;
+}
+
+.mob-back-cont{
+    font-size: 16px;
+    max-width: 100%;
+    width: auto;
+}
+
+.mob-back-cont button{
+        
+    font-size: 16px;
+  margin: 10px;
+max-width: 100%;
+width: auto;
+}
+
+/* responsive mobile start */
+
+@media (max-width:600px){
+    .main-mob-master{
+        /* background-color: rgb(189, 237, 221); */
+        margin-left: auto;
+    }
+    .mob-back-cont{
+        /* margin-left: auto;
+        margin-right: auto; */
+         margin-left: 5px;
+        max-width:370.99px;
+height:40.33px;
+gap: 8.47px;
+opacity: 0px;
+
+    }
+
+    .mob-back-cont button{
+        font-size: 0.8rem; 
+        padding: 15px 15px 15px 10px;
+        
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        background-color: #3070E6;
+        color: white;
+        height: 3rem;
+        font-family: "Product Sans Black", sans-serif;
+        
+        width: 100vw; 
+        
+        font-weight: 700;
+        line-height: 21.83px;
+        
+        
+
+
+    }
+.course-mob-butt{
+    /* margin-left: 5px; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 340.91px;
+height: auto;
+gap: 20px;
+opacity: 0px;
+}
+
+.course-but-1{
+    gap: 5px;
+}
+
+.course-but-1 button{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:180px;
+height:28.8px;
+padding: 5.08px 10px 10px 8.47px;
+
+border-radius: 22.87px;
+opacity: 0px;
+
+     background-color: plum;
+   
+    font-family: 'Product Sans', sans-serif;
+    font-size: calc(1px + 2vw);
+font-weight: 700;
+line-height: 13px;
+text-align: left;
+
+}
+
+.course-but-1 .comp-img{
+    color: white;
+    margin-left: 5px;
+    margin-right: auto;
+    position: relative;
+    max-width: 18.63px;
+    height: auto;
+    padding: 3px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+    .image1-specia{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 57.6px;
+        height: auto;
+        gap: 0px;
+        border-radius: 3.13px;
+        border: 1.25px 0px 0px 0px;
+        opacity: 0px;
+        border: 1.25px solid #000000; 
+    }
+
+    .image1-specia img{
+       position: relative;
+        max-width: 33.81px;
+height: 33.81px;
+top: 3.93px;
+left: 11.89px;
+padding: 5.28px 3.17px 5.28px 3.17px;
+gap: 0px;
+opacity: 0px;
+
+    }
+
+
+
+    .image1-specia p{
+        color: #000000;
+     
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(1px + 2vw);
+
+font-weight: 700;
+line-height: 11.27px;
+text-align: center;
+
+    }
+
+    .specia-images-main{
+        margin-left: 5px;
+        display: flex;
+
+        background-color: lightcoral;
+        max-width:370.99px;
+height:auto;
+gap: 3px;
+opacity: 0px;
+
+    }
+   
+
+    
+    .specialization-mob{
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(5px + 2vw);
+font-weight: 700;
+line-height: 17.79px;
+text-align: left;
+color:#323A46;
+    }
+   
+    .degree-mob-label{
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(5px + 2vw);
+        font-style: italic;
+font-weight: 700;
+line-height: 17.79px;
+text-align: left;
+color: #323A46;
+
+    }
+
+.mobile-master-button{
+  margin-left: 5px;
+  max-width: 355.6px;
+height:auto;
+padding: 10.16px 15.25px 10.16px 15.25px;
+gap: 17.79px;
+border-radius: 5.39px;
+border: 0.67px solid #CBD1D8;
+opacity: 0px;
+
+}
+
+
+
+    .mobileSignPage{
+        display: block;
+    }
+    .mobSignupas{
+        max-width: 365px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .mobSignupas h2{
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(18px + 2vw);
+font-weight: 400;
+line-height: 37.6px;
+text-align: left;
+
+    }
+
+    .mobSignupas h3{
+        margin-top: -1rem;
+        font-family: 'Product Sans', sans-serif;
+        font-size: calc(18px + 2vw);
+font-weight: 700;
+line-height: 37.6px;
+text-align: left;
+
+    }  
+
+    .mobSignupas-para p{
+        font-family: 'Product Sans Medium', 'Product Sans', sans-serif;
+        font-size: calc(11px + 2vw);
+        font-weight: 500;
+        line-height: 31.76px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin-top: 2rem;
+        
+    }
+.mob-sign{
+
+    max-width: 70.99px;
+
+gap: 23.72px;
+opacity: 0px;
+}
+
+.mob-label{
+   
+font-family: 'Product Sans', sans-serif;
+font-size: calc(2px + 2vw);
+background-color: aqua;
+width: 50rem;
+font-weight: 700;
+line-height: 17.79px;
+text-align: left;
+
+}
+
+
+
+    }

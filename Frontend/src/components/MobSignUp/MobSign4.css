@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    overflow-x: hidden;
+}
+.mob-phone-button{
+    font-size: 16px;
+    margin: 9px;
+  max-width: 100%;
+  width: auto;
+}
+
+@media (max-width:600px) {
+.mob-phone{
+    background-color: black;
+    max-width: 20rem;
+}
+
+.emailmob{
+    margin-top: -1rem;
+}
+
+.mob-phone-button{
+    margin-top: -6px;
+    max-width: 366.06px;
+    height: auto;
+    gap: 5.55px;
+    opacity: 0px;
+}
+
+}

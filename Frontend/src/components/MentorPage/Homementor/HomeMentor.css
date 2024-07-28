@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-butt{
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+.latest-post{
+    margin-left: 1rem;
+}
+.home-butt{
+    margin-top: -1rem;
+}
+
+
+}

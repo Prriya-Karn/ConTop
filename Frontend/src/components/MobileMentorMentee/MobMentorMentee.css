@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+
+.mobment-head h1{
+    font-size: 5vw;
+line-height: 50px;
+height: auto;
+
+margin: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+.mobment-subhead p{
+    
+        font-size: 5vw;
+        line-height: 50px;
+    
+}
+
+.mobment-box{
+    border: Mixed solid #00000080;
+    gap: 0px;
+}
+
+.mobment-box .mob-mentor img{
+
+        width: 100%; 
+        height: auto;
+    
+}
+
+.mobment-box .mob-applicant img{
+
+    width: 100%; 
+    height: auto;
+
+
+}
+
+.mobinnertextment h1{
+    
+    font-size: 5vw;
+    line-height: 50px;
+
+}
+
+.mobinnertextment{
+    width: 100%;
+    margin: auto;
+}
+
+.mobinnertextappl{
+    width: 100%;
+    margin: auto;
+}
+
+.mobinnertextappl h1{
+    
+    font-size: 5vw;
+    line-height: 50px;
+
+}
+/* responsive mobile start */
+
+@media (max-width:600px){
+    body {
+        font-size: 14rem;
+      }
+
+.mobment-head{
+    max-width: 378.65px;
+   
+height: auto;
+top: 373px;
+left: 24.74px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.mobment-head h1{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Product Sans Black", sans-serif;
+font-size: 24.45px;
+font-weight: 700;
+line-height: 29.66px;
+text-align: center;
+}
+.mobment-subhead{
+    max-width: 390px;
+height: auto;
+top: 412px;
+left: 29px;
+gap: 0px;
+opacity: 0px;
+
+}
+.mobment-subhead p{
+  
+    font-family: "Product Sans", sans-serif;
+    font-size: calc(8px + 2vw);
+font-weight: 400;
+line-height: 21.83px;
+text-align: center;
+
+}
+
+
+.mobment-box{
+margin-left: auto;
+margin-right: auto;
+    margin-top: 3rem;
+    max-width: 378px;
+height: auto;
+top: 485.72px;
+left: 29px;
+
+opacity: 0px;
+
+}
+
+.mobment-box .mob-mentor{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00000080;
+    max-width: 189px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+height: 207px;
+gap: 0px;
+border-radius: 13.26px;
+opacity: 0px;
+
+}
+
+.mobment-box .mob-mentor:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.mobment-box .mob-mentor img{
+   padding: 1rem;
+    max-width: 123.81px;
+height: 120.82px;
+top: 12.18px;
+left: 11.54px;
+gap: 0px;
+opacity: 0px;
+
+    
+}
+
+.mobment-box .mob-applicant{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    max-width: 178.59px;
+ 
+left: 190.08px;
+gap: auto;
+border-radius: 13.26px;
+border: 1.77px 0px 0px 0px;
+opacity: 0px;
+
+}
+.mobment-box .mob-applicant:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: 1px solid #00000080;
+}
+.mobment-box .mob-applicant img{
+    padding: 1rem;
+    /* margin-left: 2rem; */
+    max-width: 120px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+}
+.mobinnertextment{
+    max-width: 67px;
+    
+    gap: auto;
+    opacity: 0px;
+}
+
+.mob-mentor h1{
+    font-family: "Product Sans Medium", sans-serif;
+color: #979797;
+font-size: calc(8px + 2vw);
+font-weight: 500;
+line-height: 24.89px;
+margin-top: 2rem;
+text-align: center;
+}
+
+.mobinnertextappl h1{
+    font-family: "Product Sans Medium", sans-serif;
+    font-size: 20.52px;
+    font-weight: 500;
+    line-height: 24.89px;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: calc(8px + 3vw);
+}
+
+.mobinnertextappl{
+    max-width: 120px;
+height: 50px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+}

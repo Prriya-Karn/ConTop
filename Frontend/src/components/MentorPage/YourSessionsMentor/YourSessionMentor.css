@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+.home-box-mentor{
+    margin-left: 1rem;
+}
+.mentor-box-1{
+    background-color: aqua;
+    width: 12rem;
+    position: relative;
+    right: 6rem !important;
+}
+.mentor-complete h1{
+    font-size: 1rem;
+}
+
+.mentor-complete p{
+    font-size: 12px;
+    line-height: 1rem;
+    width: 170px;
+}
+.mentor-butt-anal button{
+    width: 10rem !important;
+    height: 2rem !important;
+    font-size: 12px;
+}
+
+.home-resp-box-mentor{
+    margin-top: -2rem !important;
+    margin-left: 1rem;
+}
+
+}
