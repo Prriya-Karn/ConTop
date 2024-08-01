@@ -24,6 +24,7 @@
   .main h1{
     font-weight: bold;
   }
+
   .svg_1{
     width: 56.166px;
   height: 56.166px;
@@ -1157,8 +1158,11 @@ cursor: pointer;
   border-top: none;
   border-left: none;
 }
+.margin-top{
+  margin-top: 1.5rem;
+}
 .navbar-section{
- 
+  margin-top: -1.5rem;
   height: 70px;
 opacity: 0.2px;
 border-bottom: 1px solid #8484844D;

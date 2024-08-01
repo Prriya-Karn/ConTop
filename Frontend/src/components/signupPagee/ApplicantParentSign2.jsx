@@ -17,8 +17,8 @@ const ApplicantParentSign2 = ()=>{
     
     return(
         <>
-        <div style={{marginBottom:"2rem",marginTop:"-3.4rem"}}>
-        <Navbar/>
+        <div>
+        <Navbar className="applicantPS2"/>
         </div>
  
         <section className="Sign_main d-flex align-items-left overflow-y-hidden  overflow-x-hidden mt-5">
@@ -44,6 +44,7 @@ const ApplicantParentSign2 = ()=>{
           className = {signlogdata[1].className}
           />
           </div>
+
           <div className="mt-4 sign-choose-content">
          <ChooseContent
          content = {chooseData[1].content}
@@ -73,17 +74,22 @@ const ApplicantParentSign2 = ()=>{
    </div>
 
 
-<div className="form-check appjourney d-flex" style={{width:"600px",height:"60px",gap:"12px"}}>  
-<div className="inner-appjourney" style={{ marginRight: "1rem",width:"17rem"}}>
-<input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-<label className="form-check-label" for="flexRadioDefault1">
+<div className="form-check appjourney d-flex" 
+style={{width:"600px",height:"60px",gap:"12px"}}>  
+<div className="inner-appjourney"
+ style={{ marginRight: "1rem",width:"17rem"}}>
+
+<input className="form-check-input"
+ type="radio" name="check-0" />
+<label className="form-check-label" for="flexRadioDefault2">
 Sept-Nov(Fall)
 </label>
 </div>
 
 <div className="inner-appjourney" style={{ marginRight: "1rem",width:"17rem"  }}>
-<input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-<label className="form-check-label" for="flexRadioDefault1">
+<input className="form-check-input" type="radio" name="check-0"
+ id=""/>
+<label className="form-check-label" for="flexRadioDefault3">
 Mar-May (Spring)
 </label>
 </div>
@@ -91,7 +97,8 @@ Mar-May (Spring)
 
 
 <div className="inner-appjourney" style={{ marginRight: "1rem",width:"30rem"  }}>
-<input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+<input className="form-check-input" type="radio" 
+name="check-0" id=""/>
 <label className="form-check-label" for="flexRadioDefault1">
 Jun-Aug (Summer)
 </label>
@@ -102,14 +109,15 @@ Jun-Aug (Summer)
 <div className="form-check appjourney d-flex" style={{width:"490px",height:"60px",gap:"12px"}}>  
 
 <div className="inner-appjourney" style={{ marginRight: "1.5rem", marginTop:"-1rem"  }}>
-<input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+<input className="form-check-input" type="radio" name="check-0"/>
 <label className="form-check-label" for="flexRadioDefault1">
 Dec-Feb (Winter)
 </label>
 </div>
 
-<div className="inner-appjourney" style={{ marginRight: "1.5rem", marginTop:"-1rem" }}>
-<input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+<div className="inner-appjourney" 
+style={{ marginRight: "1.5rem", marginTop:"-1rem" }}>
+<input className="form-check-input" type="radio" name="check-0"/>
 <label className="form-check-label" for="flexRadioDefault1">
 Not Sure
 </label>
@@ -137,7 +145,7 @@ Not Sure
          <NavLink exact to="/applicantparent">
          <BackContButt 
          bttName={dataBackCont[0].bttName}
-         backgroundColor={dataBackCont[0].backgroundColor}
+        //  backgroundColor={dataBackCont[0].backgroundColor}
          backgroundColor1={dataBackCont[0].backgroundColor1}
          />
          </NavLink>

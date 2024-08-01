@@ -15,8 +15,10 @@ import { NavLink } from "react-router-dom";
 const ApplicantParentSign5 = () => {
   return (
     <>
-      <div style={{ marginBottom: "2rem", marginTop: "-3.4rem" }}>
-        <Navhome />
+      
+      <div>
+      <Navhome/>
+    
       </div>
       <section className="Sign_main d-flex align-items-left overflow-y-hidden overflow-x-hidden mt-5 mb-5">
         <div className="container-fluid">

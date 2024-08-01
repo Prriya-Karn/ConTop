@@ -58,15 +58,17 @@ const Loginpage2 = () => {
                       <button className="second-send-otp login-otp mb-3">
                         SEND OTP
                       </button>
-                      <p className="send-p  login2-p">Resend OTP</p>
+                      <p className="send-p  login2-p">
+                      <button className="btn loginPage2Butt">Resend OTP</button>
+                      </p>
 
                       <br></br>
                       <div className="sign-mobile login2-otp">
                       <OTPInput value={OTP} onChange={setOTP} autoFocus OTPLength={6} otpType="number" disabled={false} secure className="otp-container"/>
                       </div>
                     </div>
-                    <p className="send-p login-email-p login2-email-p mt-4 mb-4">
-                      Login with Email instead
+                    <p className="send-p login-email-p login2-email-p mt-3 mb-4">
+                    <button className="btn loginPage2Butt">Login with Email instead</button>
                     </p>
 
                     <button

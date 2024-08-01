@@ -1,21 +1,48 @@
-import React from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import ButtonChoose, { buttData } from "./ButtonChoose";
 import MultiOpt, { multiOptdata } from "./MutltiOpt";
 import BackContButt, { dataBackCont } from "./BackContButt";
 import ChooseContent, { chooseData } from "./ChooseContent";
 import SignLoginButt, { signlogdata } from "./SignLoginButt";
-import SignColumn1 from "./Applicant";
 import Applicant from "./Applicant";
-import Appjourneyformcheck, { appformcheckdata } from "./Appjourneyformcheck";
-import Enterinput, { inputdata } from "./Enterinput";
-import MobileNumber from "./MobileNumber";
-import CheckData from "./CheckData";
 import Navhome from "../Home/Navhome";
 import { NavLink } from "react-router-dom";
 import MobLogo from "../MobSignUp/MobLogo";
 import Dropdown from "./Dropdown";
+import SpecButton from "./SpecButton";
 
 const ApplicantParentSign = () => {
+  const [specButt,setSpecButt] = useState([]);
+
+  const clickSpecButt = (id)=>{
+   
+
+    setSpecButt((preVal)=>{
+      
+      const filter = buttData.find((e)=>{
+        return e.id===id;
+      })
+      return [...preVal,filter]
+
+    });
+  }
+   useEffect(()=>{
+    console.log(specButt)
+  })
+
+  const deleteButt = (id)=>{
+    const filter = specButt.filter((e)=>{
+      return e.id!=id;
+    })
+    setSpecButt(filter)
+  }
+ 
+ 
+
+
+
+
+
   return (
     <>
       <Navhome />
@@ -48,44 +75,34 @@ const ApplicantParentSign = () => {
                     </div>
 
                     <div className="sign-mobile">
-                      <Dropdown options={multiOptdata[0].dropdownItem} label={multiOptdata[0].multi}/>
+                      <Dropdown options={multiOptdata[0].dropdownItem}
+                       label={multiOptdata[0].multi}/>
                       <div className="sign-mobile">
                         <label
                           for="exampleInputEmail1"
                           className="form-label mt-3"
-                          style={{ color: "#323A46" }}
-                        >
+                          style={{ color: "#323A46" }}>
                           Specialization ( Top 3 preferences )
                         </label>
-                        <img className="mb-5" src="./Images/Frame.png" />
-                      </div>
+                        <div className="spec-main-butt">
 
-                      <div className="sign-mobile mt-3">
-                        {/* <MultiOpt
-                          label={multiOptdata[1].label}
-                          multi={multiOptdata[1].multi}
-                          dropdownItem={multiOptdata[1].dropdownItem}
-                        /> */}
-                        <Dropdown options={multiOptdata[1].dropdownItem} label={multiOptdata[1].multi}/>
-                      </div>
+                       <SpecButton
+                       click = {clickSpecButt}
+                       />
+
+                        </div>
+                        </div>
                     </div>
-                    <div className="options d-flex">
-                      <ButtonChoose
-                        branchName={buttData[0].branchName}
-                        image={buttData[0].image}
-                        className={buttData[0].className}
-                      />
-
-                      <ButtonChoose
-                        branchName={buttData[1].branchName}
-                        image={buttData[1].image}
-                        className={buttData[1].className}
-                      />
-                      <ButtonChoose
-                        branchName={buttData[2].branchName}
-                        image={buttData[2].image}
-                        className={buttData[2].className}
-                      />
+                    
+                    <div className="options">
+                    
+                          
+                          <ButtonChoose
+                          specButt = {specButt}
+                          deleteButt = {deleteButt}
+                          />
+                          
+                      
                     </div>
 
                     <div className="backContButt">

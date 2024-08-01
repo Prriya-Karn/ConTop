@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import './YourAnalytics.css';
 import 'aos/dist/aos.css';
@@ -6,6 +6,12 @@ import NavMentor from "../NavMentor";
 import CardYourAnalytics from "./CardYourAnalytic";
 
 const YourAnalytics = ()=>{
+  const [updateData,setUpdateData] = useState(499);
+  const updateButt = ()=>{
+    setUpdateData(updateData+1)
+  }
+console.log(updateData)
+
   useEffect(()=>{
     Aos.init({duration:1000});
   },[])
@@ -46,11 +52,11 @@ const YourAnalytics = ()=>{
 <p>Current Charges per hour: </p>
 </div>
 <div className="currentcharge-2">
-<p>₹499</p>
+<p>₹{updateData}</p>
 </div>
 
 <div className="updatebutton">
-<button className="btn">Update</button>
+<button className="btn" onClick={updateButt}>Update</button>
 </div>
 
 

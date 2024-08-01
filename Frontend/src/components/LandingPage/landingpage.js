@@ -15,7 +15,9 @@ const Landingpage = ()=>{
     <>
   
     <div className="overflow-x-hidden">
-   <Navbar/> 
+   <Navbar
+   className = "margin-top"
+   /> 
  <Hero/>
  <Carousel/>
    <BookSession/>

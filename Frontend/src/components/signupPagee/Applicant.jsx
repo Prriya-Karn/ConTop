@@ -8,7 +8,9 @@ const Applicant = ()=>{
          applicant-sign-column1 mobile-applicant-page" style={{width:"570px",height:"646px"}}>
       <div className="row sign-inner-row-1 applicant-row-inner mobile-signup-as" style={{width:"500px",height:"124px"}}>
       <h1 className="unlock">Signup as an</h1>
-      <h1 className="global mb-4"> <span className="underline global mb-4"> Applicant</span>/Parent</h1>
+      <h1 className="global mb-4"> 
+      <span className="underline global mb-4">
+       Applicant</span>/Parent</h1>
       </div>
       <br></br> <br></br> <br></br>
       <div className="row col-md-12 sign1-inner-row-2 sign1-inner-row-2-aaplicant">

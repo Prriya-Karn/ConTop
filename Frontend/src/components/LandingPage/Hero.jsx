@@ -26,7 +26,8 @@ const Hero = ()=>{
         <div className="main text-center" style={{marginTop:"5rem"}}>
        
         <div className="head">
-        <h1>Engage with <span className="stu">Students & Alumni </span>to<svg className="svg_1" xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
+        <h1>Engage with <span className="stu">Students & Alumni </span>to
+        <svg className="svg_1" xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M30.197 43.7856C30.3285 38.8157 28.3055 33.8596 23.8697 30.8685C22.1521 29.7102 20.1173 29.2885 18.1134 28.938C26.2544 28.6587 29.0807 20.1381 30.2135 13.542C29.8201 19.4579 32.913 25.8479 39.2338 26.4375C32.9416 30.1392 30.7821 36.9318 30.197 43.7856Z" fill="white" stroke="black" stroke-width="4.6805" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg> 
       <svg className="svg_2" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -61,7 +62,6 @@ const Hero = ()=>{
 
         commonButton = {dataButton[0].commonButton}
         className = {dataButton[0].className}
-
         commonButton={dataButton[0].commonButton}
         onClick={GettingStarted}
 

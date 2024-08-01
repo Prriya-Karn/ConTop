@@ -6,14 +6,15 @@ const MobileNumber = ()=>{
   const {phoneNumber,setPhoneNumber} = useContext(AuthContext);
     return(
         <>
-        <p>Mobile Number</p>
         <div className="dropdown-button">
          <div className="input-group mb-3">
+
          <PhoneInput
          country={"in"}
          value={phoneNumber}
          onChange={(phoneNumber)=>setPhoneNumber("+" + phoneNumber)} 
          />
+
        </div>
        </div>
         </>

@@ -28,8 +28,10 @@ const SelectRole = () => {
   }
   return (
     <>
+    <div>
+        <Navbar className="applicantPS2"/>
+        </div>
       <div className="overflow-hidden h-screen flex flex-col">
-        <Navbar />
         <div className="flex h-full w-full justify-center items-center">
           <div className="flex flex-col">
 

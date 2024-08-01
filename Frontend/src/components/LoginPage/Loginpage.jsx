@@ -9,7 +9,7 @@ const Loginpage = () => {
   const userRole = useSelector((state)=>state.user.userRole);
   return (
     <>
-      <Navhome />
+      <Navhome/>
       <section
         className="Sign_main d-flex align-items-left overflow-x-hidden"
         style={{ marginTop: "-5rem" }}

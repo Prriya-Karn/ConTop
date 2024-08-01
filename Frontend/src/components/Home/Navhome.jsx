@@ -9,24 +9,26 @@ const Navhome = ()=>{
         const [showMenu,setShowMenu] = useState(false);
         const [stickNav,setStickNav] = useState(false);
 
-        const stickyfunctioncreate = ()=>{
-          window.scrollY>=40?setStickNav(true):setStickNav(false)
-        }
+        // const stickyfunctioncreate = ()=>{
+        //   window.scrollY>=40?setStickNav(true):setStickNav(false)
+        // }
       
-        window.addEventListener("scroll",stickyfunctioncreate);
+        // window.addEventListener("scroll",stickyfunctioncreate);
         return (
           <>
           <header className="head-nav mobile-nav">
-            <nav className={stickNav===true?"sticky-navbar":"navbar-section"}>
+            <nav className={stickNav===true?"sticky-navbar":"navbar-section nav-home-section"}>
               {/* logo section*/}
               <div className="nav-logo">
-                <a className="" href="#"><img src="./Images/logo.png" className="img-fluid" /></a>
+                <a className="" href="#"><img src="./Images/logo.png"
+                 className="img-fluid" /></a>
               </div>
       
               {/* menu section for desktop*/}
               <div className= {showMenu===true? "tab-menu":"navbar-menu-section"}>
                 <ul className="tab-menu-homePage-ul">
-                  <li><NavLink className="nav-link navbar-link-book active" exact to="/HomePage1"><a href="#">Home</a></NavLink></li>
+                  <li><NavLink className="nav-link navbar-link-book active"
+                   exact to="/HomePage1"><a href="#">Home</a></NavLink></li>
                   <li><NavLink exact to="/bookmentor"><a href="#">Book a Mentor</a></NavLink></li>
                   <li><NavLink exact to=""><a href="#">Your Sessions</a></NavLink></li>
                  </ul>

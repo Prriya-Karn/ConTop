@@ -17,7 +17,9 @@ const ApplicantParentSign3 = ()=>{
     
     return(
         <>
-        <Navbar/>
+        <div>
+        <Navbar className="applicantPS2"/>
+        </div>
 
         <section className="Sign_main d-flex align-items-left overflow-y-hidden  overflow-x-hidden mt-5">
         <div className="container-fluid">
@@ -66,7 +68,7 @@ const ApplicantParentSign3 = ()=>{
         
           
           <div className="backContButt d-flex">
-          <ButtonChoose
+          {/*<ButtonChoose
           branchName={buttData[3].branchName}
           image = {buttData[3].image}
           className = {buttData[3].className}
@@ -80,7 +82,7 @@ const ApplicantParentSign3 = ()=>{
           branchName={buttData[5].branchName}
           image = {buttData[5].image}
           className = {buttData[5].className}
-          />
+          />*/}
           
           
           </div>

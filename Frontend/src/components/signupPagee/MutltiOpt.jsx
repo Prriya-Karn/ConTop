@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 const multiOptdata = [
   {
     multi: "Select your Degree",
@@ -65,6 +66,10 @@ const multiOptdata = [
   },
 ];
 const MultiOpt = ({ label, multi, dropdownItem }) => {
+const selectOpt = (event)=>{
+  console.log(true)
+}
+
   return (
     <>
       <label for="exampleInputEmail1" className="form-label mb-2 label-style ">
@@ -72,34 +77,28 @@ const MultiOpt = ({ label, multi, dropdownItem }) => {
       </label>
       <div className="dropdown-button">
         <div className="input-group mb-3">
-          <button
-            style={{
-              width: "500px",
-              height: "47px",
-              textAlign: "left",
-              backgroundColor: "transparent",
-              color: "black",
-              borderColor: "#CBD1D8",
-            }}
+          <button onChange={selectOpt}
             className="btn btn-outline-secondary dropdown-toggle d-toggle"
+         
             type="button"
             data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
+            aria-expanded="false">
             {multi}
           </button>
           <ul className="dropdown-menu">
+
             {dropdownItem.map((e) => {
               return (
                 <li>
-                  {
-                    <a className="dropdown-item" onClick={}>
+                 
+                    <NavLink className="dropdown-item">
                       {e}
-                    </a>
-                  }
+                    </NavLink>
+              
                 </li>
               );
             })}
+            
           </ul>
         </div>
       </div>

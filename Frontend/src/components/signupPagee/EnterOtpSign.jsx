@@ -15,21 +15,16 @@ const EnterOtpSign = () => {
   // }
   return (
     <>
-      <div style={{ marginBottom: "2rem", marginTop: "-2rem" }}>
-        <Navbar />
-      </div>
-      <br></br>
-      <section className="Sign_main d-flex align-items-left overflow-x-hidden">
+<div className="enterOtpNav">
+        <Navbar/>
+      <section className="Sign_main enterOtpMain d-flex align-items-left overflow-x-hidden">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-10 mx-auto">
               <div className="container">
                 <div className="row row-sign-1">
                   <div className="col-lg-6 col-md-5 me-5 order-1 order-lg-1 sign-column1">
-                    <div
-                      className="row sign-inner-row-1"
-                      style={{ marginTop: "-6rem" }}
-                    >
+                    <div className="row sign-inner-row-1">
                       <h1 className="unlock">Unlocking Your</h1>
                       <h1 className="global">Global Potential</h1>
                       <p>
@@ -104,6 +99,7 @@ const EnterOtpSign = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };

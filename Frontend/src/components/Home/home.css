@@ -4,29 +4,6 @@
     box-sizing: border-box;
     
 }
-/* .card img{
-    overflow: hidden;
-  transition: all 0.6s;
-  } 
-  
-  
-.card img:hover{
-  transform: scale(0.9,0.9);
-  cursor: pointer;
-} */
-
-
-    /* button{
-        margin-top:1rem;
-        overflow: hidden;
-      transition: all 0.6s;
-      }
-      
-      button:active{
-      transform: scale(0.9,0.9);
-      cursor: pointer;
-      } */
-
 
 .nav-menu{
     position: relative;
@@ -40,10 +17,9 @@
     display: none;
 }
 
-/* .navbar-nav{
-    background-color: orange;
-} */
-
+.nav-home-section{
+    margin-top: 0rem !important;
+}
 
 .dropdown-menu{
     box-shadow: -1px 2px 12.5px 0px #00000014;

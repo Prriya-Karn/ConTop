@@ -1,7 +1,7 @@
 import React from "react";
 const chooseData = [
     {
-        content : " Choose Your Preferred Course"
+        content : "Choose Your Preferred Course"
     },
     {
         content: "Where are you in the application journey?"

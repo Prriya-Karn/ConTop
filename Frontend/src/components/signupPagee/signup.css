@@ -4,15 +4,43 @@
     box-sizing: border-box;
     font-family: "Josefin Sans",sans-serif;
 }
-
+.sign-navbar{
+    margin-bottom: 2rem;
+    margin-top: -1.3rem;
+}
+.enterOtpNav{
+    margin-top: 1.5rem;
+}
+.enterOtpMain{
+    margin-top: 5rem !important;
+}
+/* .enterOtpNav{
+    background-color: #007AD9 !important;
+} */
 .row-sign-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-   
 }
+.spec-main-butt{
+    height:7rem;
+    margin-left: 0.3rem;
+    width:35rem;
+}
+.spec-main-butt .specButt{
+    margin-left:-1.2rem;
+    border: none;
+    transition: all 0.6s;
+}
+.spec-main-butt .specButt:active{
+    transform: scale(0.9);
+}
+.spec-main-butt .specButt img{
+    height:5rem;
+    width:4rem;
+
+}
+
 
 .dropdown-button{
     width: 419.84px;
@@ -48,6 +76,7 @@ gap: 21px;
     letter-spacing: 0em;
     text-align: left;
 }
+
 
 .sign-inner-row-1 span{
     font-family: 'Product Sans', sans-serif;
@@ -277,10 +306,6 @@ color:white;
     
 }
 
-.optionButton{
-    width: 180px;
-    height: 34px;
-}
 
 
 .optionButton-2{
@@ -313,15 +338,20 @@ height: 34px;
     color:#323A46;
 }
 
+.options{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width:40rem;
+ 
+}
+.applicantPS2{
+    margin-top: 1.5rem;
+}
 
 .option{
-    padding-top:6px;
-    padding-left: 10px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    border-radius: 27px;
-    gap: 10px;
-    background: #3568FF;
+    display: flex;
+    margin-bottom: 1rem;
     color:white;
     font-family: 'Product Sans', sans-serif;
 font-size: 14px;
@@ -331,25 +361,36 @@ letter-spacing: 0em;
 text-align: left;
 }
 
-.option button{
+
+
+.closebutton .close-icon {
+    position: absolute;
+    top: 0.6rem; 
+    right: 0.5vw; 
+    width: 20px; 
+    height: 20px;
+  
+}
+
+
+.closebutton {
+    position: relative;
     background: #3568FF;
-    border-style: none;
+    border: none;
+    padding-right:2.5rem;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
+    text-align: left;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height:6vh;
+   
 }
-.optionButton button img{
-    position: relative;
-    top:-0.1rem;
-    left:1rem;
-}
-.optionButton-2 button img{
-    position: relative;
-    top:-0.1rem;
-    left:0.6rem;
-}
-.optionButton-3 button img{
-    position: relative;
-    top:-0.1rem;
-    left:0.6rem;
-}
+
 .d-toggle::after {
     position: absolute;
     left: 90%;
@@ -426,7 +467,17 @@ text-align: left;
 
 .appjourney{
 height: 204px;
-gap: 12px;
+}
+
+.appjourney-sept{
+    background-color: rebeccapurple;
+    width:90rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.appjourney-sept .form-check-input{
+    margin-left: 20rem;
 }
 
 .appjourney input{
@@ -489,6 +540,32 @@ border: 2px solid #000000;
 .logo-hide-tab-laptop{
     display: none;
 }
+
+.dropdown-toggle{
+        width: 500px;
+        height: 47px;
+        text-align: left !important;
+        background-color: transparent;
+        color: black;
+        border-color: #CBD1D8;
+    }
+.dropdown-toggle:hover{
+    background-color: transparent !important;
+    color: black !important;
+}
+.dropdown-toggle:focus{
+    background-color: transparent !important;
+    color: black !important;
+}
+.dropdown-menu{
+    cursor: pointer;
+}
+.dropdown-item{
+ background-color:white !important;
+ color: black !important;
+}
+
+
 
 /* 
 Responsive mobile start here */

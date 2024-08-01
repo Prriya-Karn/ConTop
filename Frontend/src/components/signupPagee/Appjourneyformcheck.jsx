@@ -24,7 +24,8 @@ const Appjourneyformcheck = ({label})=>{
     return(
         <>
         <div className="inner-appjourney">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+  <input class="form-check-input" type="radio" 
+  name="flexRadioDefault" id=""/>
   <label class="form-check-label" for="flexRadioDefault1">
   {label}
   </label>

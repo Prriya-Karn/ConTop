@@ -46,9 +46,9 @@ const Sign = () => {
 
   return (
     <>
-      <div style={{ marginBottom: "2rem", marginTop: "-1.3rem" }}>
+
         <Navbar />
-      </div>
+
       <br></br>
       <section className="Sign_main d-flex align-items-left overflow-x-hidden">
         <div className="container-fluid">

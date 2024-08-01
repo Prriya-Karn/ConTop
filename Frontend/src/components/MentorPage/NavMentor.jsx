@@ -12,11 +12,13 @@ const NavMentor = () => {
 
     return (
         <>
-            <header className="head-nav">
+            <header className="head-nav mt-4">
                 <nav className={stickNav === true ? "sticky-navbar" : "navbar-section"}>
                     {/* logo section*/}
                     <div className="nav-logo">
-                        <a className="" href="#"><img src="./Images/logo.png" className="img-fluid" /></a>
+                        <a className="" href="#">
+                        <img src="./Images/logo.png" className="img-fluid" />
+                        </a>
                     </div>
 
                     {/* menu section for desktop*/}
