@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 const multiOptdata = [
   {
     multi: "Select your Degree",
+    value:1,
     label: "Degree Level",
     dropdownItem: [
       "Associate's Degree",
@@ -19,6 +20,7 @@ const multiOptdata = [
   },
   {
     multi: "Choose from list",
+    value:2,
     label: "Or choose from the list (at most 3)",
     dropdownItem: [
       "Computer Science",
@@ -56,50 +58,52 @@ const multiOptdata = [
   },
   {
     multi: "2024",
+    value:3,
     label: "Year",
     dropdownItem: [2024, 2025, 2026, 2027],
   },
   {
     multi: "Choose from list",
+    value:4,
     label: "List of Countries",
     dropdownItem: ["United Kingdom", "Germany", "Canada"],
   },
 ];
-const MultiOpt = ({ label, multi, dropdownItem }) => {
+
+
+const MultiOpt = ({ label, multi, dropdownItem, value }) => {
+
+  const [optionData,setOptionData] = useState([]);
+
 const selectOpt = (event)=>{
-  console.log(true)
+  setOptionData(event.target.value);
 }
+
+useEffect(()=>{
+  console.log(optionData)
+})
 
   return (
     <>
-      <label for="exampleInputEmail1" className="form-label mb-2 label-style ">
+      <label for="exampleInputEmail1" 
+      className="form-label mb-2 label-style ">
         {label}
       </label>
       <div className="dropdown-button">
         <div className="input-group mb-3">
-          <button onChange={selectOpt}
-            className="btn btn-outline-secondary dropdown-toggle d-toggle"
-         
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-            {multi}
-          </button>
-          <ul className="dropdown-menu">
-
-            {dropdownItem.map((e) => {
-              return (
-                <li>
-                 
-                    <NavLink className="dropdown-item">
-                      {e}
-                    </NavLink>
-              
-                </li>
-              );
-            })}
-            
-          </ul>
+          <select onChange={selectOpt} className="btn btn-outline-secondary
+          dropdown-toggle d-toggle">
+           {
+            dropdownItem.map((ele)=>{
+              return(
+                <Fragment>
+                <option>{ele}</option>
+                </Fragment>
+              )
+            })
+           }
+          </select>
+          
         </div>
       </div>
     </>
@@ -108,3 +112,5 @@ const selectOpt = (event)=>{
 
 export default MultiOpt;
 export { multiOptdata };
+
+

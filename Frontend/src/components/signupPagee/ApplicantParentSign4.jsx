@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ButtonChoose, { buttData } from "./ButtonChoose";
 import MultiOpt, { multiOptdata } from "./MutltiOpt";
 import BackContButt, { dataBackCont } from "./BackContButt";
@@ -13,7 +13,36 @@ import CheckData from "./CheckData";
 import Navhome from "../Home/Navhome";
 import { NavLink } from "react-router-dom";
 const ApplicantParentSign4 = ()=>{
-    
+  const [data,setData] = useState(
+    {
+      fname : "",
+      lname : "",
+      email : ""
+    }
+  );
+  const [submit,setSubmit] = useState();
+
+  const Data = (event)=>{
+    var {name,value} = event.target;
+      setData((preVal)=>{
+        return{
+          ...preVal,[name] : value
+        }
+      })
+  }
+
+  const submitForm = ()=>{
+      setSubmit(`first name is : ${data.Fname}, last name is : ${data.Lname} and
+         email is ${data.Email} `)
+  }
+
+  useEffect(()=>{
+    console.log(data)
+      console.log(submit)
+
+  })
+
+
     return(
         <>
         <Navhome/>
@@ -45,24 +74,43 @@ const ApplicantParentSign4 = ()=>{
          content = {chooseData[4].content}
          />
           </div>
-          <Enterinput
+
+          
+{/*---------------------------input field start-------------------------------*/}
+        
+         <Enterinput
           labelName = {inputdata[1].labelName}
-          type = {inputdata[1]}
+          type = {inputdata[1].type}
+          name = {inputdata[1].name}
+          inputData = {Data}
+          
           />
           <br></br>
           <Enterinput
           labelName = {inputdata[2].labelName}
           type = {inputdata[2]}
+          name = {inputdata[2].name}
+          inputData = {Data}
           />
           <br></br>
           <Enterinput
           labelName = {inputdata[3].labelName}
           type = {inputdata[3].labelName}
+          name = {inputdata[3].name}
+          inputData = {Data}
           />
+
+   { /*      <button className="mt-3 fs-6 p-2 text-white bg-success"
+           onClick={submitForm}>Submit Form</button>*/}
+
+
+{/*---------------------------input field end-------------------------------*/}
+
           <div className="sign-mobile">
           <br></br>
           <MobileNumber/>
             </div>
+
           <div className="backContButt">
           <NavLink exact to="/applicantparent3">
          <BackContButt 

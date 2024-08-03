@@ -1,13 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navhome from "./Navhome";
 import { NavLink } from "react-router-dom";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import { BookMentorData } from "./BookMentorData";
 
 const Filter = ()=>{
+  const [select,setSelect] = useState([]);
+  const selectCountry = (event)=>{
+    setSelect(event.target.value);
+  }
+  console.log(select)
+ 
+
   useEffect(()=>{
     Aos.init({duration:1000});
   },[])
+
+  
     return(
         <>
         <Navhome/>
@@ -39,14 +49,18 @@ Filters</button>
 
 <div className="choice-mentor d-flex mt-4">
 <div className="dropdown">
-  <button className="btn choice-btn btn-secondary dropdown-toggle" style={{background:"none",color:"black"}} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  <select className="btn choice-btn btn-secondary dropdown-toggle"
+  onChange={selectCountry}
+  style={{background:"none",color:"black"}} type="button">
   Country Of Study
-  </button>
-  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
+  {
+    BookMentorData.map((e)=>{
+      return(
+        <option>{e.country}</option>
+      )
+    })
+  }
+ </select>
 </div>
 
 <div className="mentor-status  d-flex">

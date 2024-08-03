@@ -64,7 +64,10 @@ const Loginpage2 = () => {
 
                       <br></br>
                       <div className="sign-mobile login2-otp">
-                      <OTPInput value={OTP} onChange={setOTP} autoFocus OTPLength={6} otpType="number" disabled={false} secure className="otp-container"/>
+                      <OTPInput value={OTP} 
+                      onChange={setOTP} autoFocus OTPLength={6}
+                       otpType="number" disabled={false}
+                        secure className="otp-container"/>
                       </div>
                     </div>
                     <p className="send-p login-email-p login2-email-p mt-3 mb-4">

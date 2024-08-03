@@ -1,20 +1,60 @@
-import React from "react";
-import ButtonChoose, { buttData } from "./ButtonChoose";
-import MultiOpt, { multiOptdata } from "./MutltiOpt";
+import React, { useState } from "react";
 import BackContButt, { dataBackCont } from "./BackContButt";
 import ChooseContent, { chooseData } from "./ChooseContent";
 import SignLoginButt, { signlogdata } from "./SignLoginButt";
-import SignColumn1 from "./Applicant";
 import Applicant from "./Applicant";
-import Appjourneyformcheck, { appformcheckdata } from "./Appjourneyformcheck";
-import Enterinput, { inputdata } from "./Enterinput";
-import MobileNumber from "./MobileNumber";
-import CheckData from "./CheckData";
-import Navhome from "../Home/Navhome";
 import { NavLink } from "react-router-dom";
 import Navbar from "../LandingPage/Navbar";
+import FlagButton from "./FlagButton";
+const countryName = [
+    {
+        name : "uk",
+        id:1
+    },
+    {
+        name : "germany",
+        id:2
+    },
+    {
+        name : "usa",
+        id:3
+    },
+    {
+        name : "canada",
+        id:4
+    },
+    {
+        name : "france",
+        id:5
+    },
+    {
+        name : "australia",
+        id:6
+    },
+]
 const ApplicantParentSign3 = ()=>{
-    
+    const [country,setCountry] = useState([]);
+    const clickCountry = (id)=>{
+        const filter = countryName.find((e)=>{
+            return e.id == id
+        })
+        setCountry((preVal)=>{
+        
+             return [...preVal,filter]
+         
+        })
+    }
+    const uniqueCountry = [...new Set(country)]
+    console.log(uniqueCountry)
+const del = ((id)=>{
+    const delCountry = uniqueCountry.filter((e)=>{
+        return e.id!=id
+    })
+    setCountry(delCountry)
+})
+
+
+
     return(
         <>
         <div>
@@ -51,20 +91,14 @@ const ApplicantParentSign3 = ()=>{
           </div>
 
 
-      <div className="countryFlags mb-5">
-      <img className="mb-5" src="./Images/countries.png"/>
-     </div>
+      <div className="countryFlags">
+      <FlagButton
+      clickCountry = {clickCountry}
+      uniqueCountry = {uniqueCountry}
+      del = {del}
+      />
+      </div>
 
-
-          <div className="sign-mobile">
-          <MultiOpt
-          label = {multiOptdata[3].label}
-          multi = {multiOptdata[3].multi}
-          dropdownItem = {multiOptdata[3].dropdownItem}
-          />
-
-
-          </div>
         
           
           <div className="backContButt d-flex">
@@ -130,3 +164,4 @@ const ApplicantParentSign3 = ()=>{
 }
 
 export default ApplicantParentSign3;
+export {countryName};

@@ -32,7 +32,8 @@ const ApplicantParentSign2 = ()=>{
         <Applicant/>
       
             <div className="col-lg-5 me-5 col-md-12 col-12 order-1 order-lg-2
-            sign-column2 sign-column2-applicant2 flex-column mb-5" style={{width:"438px",height:"583.65px"}}>
+            sign-column2 sign-column2-applicant2 flex-column mb-5" 
+            style={{width:"438px",height:"583.65px"}}>
           
             <div className="sign-buttons">
           <SignLoginButt
@@ -130,17 +131,31 @@ Not Sure
 
 
 
+{/*----------------------Year section start----------------------------------*/} 
 
           <div className="sign-mobile">
           <MultiOpt
           label = {multiOptdata[2].label}
           multi = {multiOptdata[2].multi}
           dropdownItem = {multiOptdata[2].dropdownItem}
+          value = {multiOptdata[2].value}
           />
-
-
           </div>
-        
+
+
+
+
+
+
+{/*----------------------Year section end----------------------------------*/} 
+          
+
+
+
+
+
+
+
           <div className="backContButt" style={{marginTop:"-1rem"}}>
          <NavLink exact to="/applicantparent">
          <BackContButt 

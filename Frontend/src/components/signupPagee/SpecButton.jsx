@@ -25,6 +25,7 @@ const ButtSpecData = [
         image:"./Images/spec6.png"
     },
 ]
+
 const SpecButton = ({click})=>{
     return(
         <Fragment>

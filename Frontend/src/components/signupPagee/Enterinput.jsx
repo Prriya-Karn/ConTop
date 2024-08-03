@@ -1,33 +1,49 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ApplicantParentSign4 from "./ApplicantParentSign4";
 const  inputdata = [
     {
         labelName : "Enter OTP",
-        type : "password"
+        type : "password",
+        name : ""
     },
+
     {
         labelName : "First Name",
-        type : "text"
+        type : "text",
+        name : "Fname"
     },
     {
         labelName : "Last Name",
-        type : "text"
+        type : "text",
+        name : "Lname"
     },
     {
         labelName : "Email",
-        type : "email"
+        type : "email",
+        name : "Email"
     }
     
     
 ]
 
 const Enterinput = (props)=>{
+  
+
+
     return(
         <>
         <div className="sign-mobile" style={{color:"#323A46"}}>
          
           <label for="exampleInputEmail1" className="form-label">{props.labelName}</label>
-          <input type={props.type} className="form-control enterOtpinput" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+         <form>
+         <input type={props.type} name={props.name} onChange={props.inputData}
+         
+         className="form-control enterOtpinput"
+         id="exampleInputEmail1"
+          aria-describedby="emailHelp"/>
+         </form>
           </div>
+
         </>
     )
 }

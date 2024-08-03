@@ -348,6 +348,20 @@ height: 34px;
 .applicantPS2{
     margin-top: 1.5rem;
 }
+.countryFlags{
+    margin-bottom: 10rem;
+}
+
+.country-main-button{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1rem;
+}
+.country-main-button .option button{
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+}
 
 .option{
     display: flex;
