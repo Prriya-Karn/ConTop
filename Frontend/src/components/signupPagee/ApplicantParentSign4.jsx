@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import ButtonChoose, { buttData } from "./ButtonChoose";
 import MultiOpt, { multiOptdata } from "./MutltiOpt";
 import BackContButt, { dataBackCont } from "./BackContButt";
@@ -12,7 +12,9 @@ import MobileNumber from "./MobileNumber";
 import CheckData from "./CheckData";
 import Navhome from "../Home/Navhome";
 import { NavLink } from "react-router-dom";
+import {Proform} from "../CompleteProfile/MyProfile";
 const ApplicantParentSign4 = ()=>{
+
   const [data,setData] = useState(
     {
       fname : "",
@@ -21,7 +23,6 @@ const ApplicantParentSign4 = ()=>{
     }
   );
   const [submit,setSubmit] = useState();
-
   const Data = (event)=>{
     var {name,value} = event.target;
       setData((preVal)=>{
@@ -45,6 +46,7 @@ const ApplicantParentSign4 = ()=>{
 
     return(
         <>
+       
         <Navhome/>
         <section className="Sign_main d-flex align-items-left overflow-y-hidden overflow-x-hidden mt-5">
         <div className="container-fluid">

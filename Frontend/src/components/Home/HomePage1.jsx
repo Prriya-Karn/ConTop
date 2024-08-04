@@ -3,14 +3,12 @@ import './home.css';
 import Navhome from "./Navhome";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import { NavLink } from "react-router-dom";
 
 const HomePage1 = ()=>{
-  useEffect(()=>{
-    Aos.init({duration:1000});
-  },[])
     return(
         <>
-        <div  data-aos="fade-left">
+        <div>
         <section className="main-homepage-1 d-flex align-items-center overflow-x-hidden">
         <div className="container-fluid" style={{marginTop:"1rem"}}>
 <div className="row">
@@ -56,7 +54,7 @@ const HomePage1 = ()=>{
       <p>4:00 PM - 5:00PM</p>  </div>
       </div>
 
-      <div className="card-bottom home-card-bottom mt-2">
+      <div className="card-bottom home-card-bottom">
       <a href="#">
       View Details
       </a>
@@ -95,7 +93,7 @@ const HomePage1 = ()=>{
     <div>
     <p>4:00 PM - 5:00PM</p>  </div>
     </div>
-    <div className="card-bottom home-card-bottom mt-2">
+    <div className="card-bottom home-card-bottom">
     <a href="#">View Details</a>
     </div>
 
@@ -130,8 +128,8 @@ const HomePage1 = ()=>{
       <div>
       <p>4:00 PM - 5:00PM</p>  </div>
       </div>
-     
-      <div className="card-bottom home-card-bottom mt-2">
+      
+      <div className="card-bottom home-card-bottom">
       <a href="#">View Details</a>
       </div>
       </div>
@@ -152,14 +150,18 @@ const HomePage1 = ()=>{
 <div className="main-home-box-2">
     <div className="home-box-1">
     <div className="completeProfile">
+ 
     <h1>Complete Your Profile</h1>
+
     <p>Your Profile is X% complete!</p>
     </div>
     <div className="range" style={{marginTop:"4.5rem",marginLeft:"1rem"}}>
     <input type="range" className="rangecol" name="" style={{width:"280px" }}/>
     </div>
     <div className="profile">
+    <NavLink exact to="/myqualification">
     <p>Complete profile </p>
+    </NavLink>
     </div>
     </div>
     <div className="home-box-1 mt-3">
@@ -220,7 +222,10 @@ const HomePage1 = ()=>{
     
     <div className="home-butt">
    <button className="btn button">
-   <a href="#" style={{textDecoration:"none",color:"white"}}>Your Sessions</a>
+   <NavLink style={{textDecoration:"none"}} exact to = "/yoursession">
+   <a href="#" style={{textDecoration:"none",color:"white"}}>Your Sessions</a> 
+   </NavLink>
+  
    </button>
    </div>
     </div>

@@ -13,14 +13,21 @@ const dataButton = [
         className : "button readmore"
     },
     {
-        commonButton : "Book A Mentor"
+        commonButton : "Book A Mentor",
+        className : ""
+    },
+    {
+        commonButton : "Submit",
+        className : "mt-2",
+        buttonClass : "ProfileBackButton"
     }
 ]
 const Button = (props)=>{
     return(
         <>
         <div className={props.className}>
-        <button>{props.commonButton}</button>
+        <button onClick={props.submitpro} 
+        className={props.buttonClass}>{props.commonButton}</button>
         </div>
        
         </>

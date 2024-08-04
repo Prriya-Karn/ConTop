@@ -26,8 +26,8 @@ const Navbar = ({className}) => {
           <ul>
             <li><NavLink className="nav-link navbar-link-book" exact to="/bookmentor">
             Book a Session</NavLink></li>
-            <li><NavLink className="nav-link" exact to="/">
-            Book a Mentor</NavLink>
+            <li><NavLink className="nav-link" exact to="/completepro">
+            Become a Mentor</NavLink>
             </li>
             <li><NavLink className="nav-link" exact to="/">
             About Us</NavLink></li>

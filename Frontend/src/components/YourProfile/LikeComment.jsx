@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const LikeComment = ()=>{
     return(
         <>
-        <div  data-aos="fade-left">
+        <div>
         <div className="likecommentsection">
         <div className="YourProfile-Profile">
             <img src="./Images/profile.png" />

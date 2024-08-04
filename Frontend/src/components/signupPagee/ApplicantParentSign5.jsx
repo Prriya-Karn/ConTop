@@ -94,7 +94,7 @@ const ApplicantParentSign5 = () => {
                         />
                       </NavLink>
 
-                      <NavLink exact to="/login">
+                      <NavLink exact to="/HomePage1">
                         <BackContButt
                           bttName={dataBackCont[2].bttName}
                           backgroundColor1={dataBackCont[2].backgroundColor1}

@@ -1,10 +1,9 @@
 import React, { Fragment, useState } from "react";
-import Navhome from "../Home/Navhome";
-import "./myqua.css";
-import Myqua from "./myqua";
-import MyProfile from "./MyProfile";
 
-const MyQualification = () => {
+import NavMentor from "./NavMentor";
+import MyProfile from "../CompleteProfile/MyProfile";
+
+const CompletePro = () => {
     const [pro,Setpro] = useState(false);
     const myProfile = ()=>{
         Setpro(true)
@@ -15,7 +14,7 @@ const MyQualification = () => {
     console.log(pro)
     return (
         <Fragment>
-            <Navhome />
+            <NavMentor/>
             <section className="main-homepage-1 d-flex align-items-center overflow-x-hidden">
                 <div className="container">
                     <div className="row">
@@ -338,4 +337,4 @@ const MyQualification = () => {
     )
 }
 
-export default MyQualification;
+export default CompletePro;

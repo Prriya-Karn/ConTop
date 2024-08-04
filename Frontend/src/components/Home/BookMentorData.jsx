@@ -7,7 +7,8 @@ const BookMentorData = [
         name  : "Priya",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "Harward University"
+        university : "Harward University",
+        uni : "harward"
     },
     {
         id : "2",
@@ -17,8 +18,9 @@ const BookMentorData = [
         name : "Sneha",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "Harward University"
 
+        university : "Harward University",
+        uni : "harward"
     },
     {
         id : "3",
@@ -28,7 +30,8 @@ const BookMentorData = [
         name : "Ishaan",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "Oxford University"
+        university : "Oxford University",
+        uni : "oxford"
     },
     {
         id : "4",
@@ -38,7 +41,8 @@ const BookMentorData = [
         name : "Aarna",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "Stanford University"
+        university : "Stanford University",
+        uni : "stanford"
     },
     {
         id : "5",
@@ -48,7 +52,8 @@ const BookMentorData = [
         name : "Dhruv",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "MIT University"
+        university : "MIT University",
+        uni : "mit"
     },
     {
         id : "6",
@@ -57,7 +62,9 @@ const BookMentorData = [
         degree :  "BA",
         name : "Agastya",
         uniImage : "./Images/uni.png",
-        bookImage : "./Images/book.png"
+        bookImage : "./Images/book.png",
+        university : "Stanford University",
+        uni : "stanford"
     },
     {
         id : "7",
@@ -67,7 +74,8 @@ const BookMentorData = [
         name : "Anjali",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "MIT University"
+        university : "MIT University",
+        uni : "mit"
     },
     {
         id : "8",
@@ -77,7 +85,8 @@ const BookMentorData = [
         name : "Sakshi",
         uniImage : "./Images/uni.png",
         bookImage : "./Images/book.png",
-        university : "Stanford University"
+        university : "Stanford University",
+        uni : "stanford"
     },
     
 ]

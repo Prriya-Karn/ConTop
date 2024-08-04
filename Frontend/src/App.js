@@ -23,6 +23,9 @@ import { ApplicantParentSign, ApplicantParentSign2, ApplicantParentSign3, Applic
 import { FilterMentor, HomeMentor, MentorBookpage, YourAnalytics, YourSessionMentor } from "./components/MentorPage";
 import { MobSign1, MobSign2, MobSign3, MobSign4, MobSign5 } from "./components/MobSignUp"; 
 import AuthState from "./context/Authentication/AuthState";
+import YourSession from "./components/Mentee Pages/MenteeYourSession";
+import MenteeYourSession from "./components/Mentee Pages/MenteeYourSession";
+import CompletePro from "./components/MentorPage/CompletePro";
 
 
 function App() {
@@ -34,6 +37,11 @@ function App() {
         {/* Landing Page */}
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/selectRole" element={<SelectRole/>}/>
+        <Route exact path="/hero" element={<LandingPage />} />
+        <Route exact path="*" element={<div><h1>Error page</h1></div>} />
+
+
+
 
         {/* SignUp Routes */}
         <Route exact path="/signup" element={<Signup />} />
@@ -46,31 +54,37 @@ function App() {
 
 {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
-      {/* Mentor Page Routes */}
+      {/* Mentor Page Routes right side */}
         <Route exact path="/homementor" element={<HomeMentor />} />
         <Route exact path="/mentorbookpage" element={<MentorBookpage />} />
         <Route exact path="/filtermentor" element={<FilterMentor />} />
         <Route exact path="/yoursessionmentor" element={<YourSessionMentor />} />
         <Route exact path="/youranalytics" element={<YourAnalytics />} />
+        <Route exact path="/completepro" element={<CompletePro />} />
+        
       
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/mentor" element={<Mentor />} />
-
-
-        <Route exact path="/loginpage2" element={<Loginpage2 />} />
-
-        <Route exact path="/hero" element={<LandingPage />} />
+        
+{/*-----------------------------Mentee start left side--------------------------------------------*/}
+        <Route exact path="/yoursession" element={<MenteeYourSession/>} />
         <Route exact path="/HomePage1" element={<Home />} />
         <Route exact path="/bookmentor" element={<BookMentor />} />
-        <Route exact path="/filter" element={<Filter />} />
         <Route exact path="/myqualification" element={<Myqua />} />
         <Route exact path="/Mentorprofile" element={<MentorProfile />} />
         <Route exact path="/yourprofile" element={<YourProfile />} />
         <Route exact path="/chat" element={<ChatApplication />} />
+{/*-----------------------------Mentee end--------------------------------------------*/}
+      
 
-        <Route exact path="*" element={<div><h1>Error page</h1></div>} />
+
+
+
+
+
+<Route exact path="/loginpage2" element={<Loginpage2 />} />
 
 
         {/*Application routing start*/}

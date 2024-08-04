@@ -9,6 +9,7 @@ const BookMentor = ()=>{
   const [select,setSelect] = useState("");
   const [countryFilter,setCountryFilter] = useState(BookMentorData);
   const [search,setSearch] = useState(BookMentorData);
+
   const selectCountry = (event)=>{
     const selCountry = event.target.value;
     setSelect(selCountry);
@@ -33,7 +34,8 @@ const selectDegree = (event)=>{
   })
   setCountryFilter(filterDegree)
 }
-// console.log(select)
+
+
 
 
   const chooseSection = ()=>{
@@ -44,19 +46,23 @@ const selectDegree = (event)=>{
   }
   
   const Search = (event)=>{
-    setSearch(event.target.value);
+    const searData = (event.target.value).toLowerCase();
+    const res = BookMentorData.filter((e)=>{
+      return(
+         (e.country).toLowerCase() === searData ||
+         (e.name).toLowerCase() === searData ||
+         (e.mentorStatus).toLowerCase() === searData ||
+         (e.degree).toLowerCase() === searData ||
+         (e.university).toLowerCase() === searData ||
+         (e.uni).toLowerCase() === searData
+        
+        )
+    })
+    res.length === 0?setCountryFilter(BookMentorData):setCountryFilter(res)
+
   }
 
-  const res = BookMentorData.find((e)=>{
-    return (e)
-  })
-  console.log(res)
-  
-
-  
-
- 
-
+  // console.log(countryFilter)
     useEffect(()=>{
         Aos.init({duration:1000});
       },[])
@@ -98,8 +104,8 @@ placeholder="Search"/>
 
 <div className="d-flex filterButton">
 <button className="btn d-flex" onClick={chooseSection}
-style={{gap:"0.5rem",backgroundColor:"#FFFFFF",cursor:"pointer"}}>
-<img src="./Images/filter.png"/>
+style={{gap:"0.5rem",cursor:"pointer",backgroundColor:fContent?"#C53183B2":"white", color:fContent?"white":"#C53183B2"}}>
+{fContent?<img src="./Images/ion_filter.png"/>:<img src="./Images/filter.png"/>}
 Filters</button>
 </div>
 
@@ -203,7 +209,7 @@ Request University/ Course
   <div className="card-1  d-flex">
   <img src={e.uniImage} className="img-fluid"/>
   <div>
-  <p className="">Harward University</p>
+  <p className="">{e.university}</p>
   </div>
   </div>
 

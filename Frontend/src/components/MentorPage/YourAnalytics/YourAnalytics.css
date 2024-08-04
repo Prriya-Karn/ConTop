@@ -48,6 +48,12 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+.your-analytics-box-1{
+    height: 10rem !important;
+}
+.your-analytics-box-2{
+    height: 10rem !important;   
+}
 .your-analytics-box-1 p{
     width: 154px;
 height: 30px;

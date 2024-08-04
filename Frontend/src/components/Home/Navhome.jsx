@@ -30,7 +30,7 @@ const Navhome = ()=>{
                   <li><NavLink className="nav-link navbar-link-book active"
                    exact to="/HomePage1"><a href="#">Home</a></NavLink></li>
                   <li><NavLink exact to="/bookmentor"><a href="#">Book a Mentor</a></NavLink></li>
-                  <li><NavLink exact to=""><a href="#">Your Sessions</a></NavLink></li>
+                  <li><NavLink exact to="/yoursession"><a href="#">Your Sessions</a></NavLink></li>
                  </ul>
               </div>
              

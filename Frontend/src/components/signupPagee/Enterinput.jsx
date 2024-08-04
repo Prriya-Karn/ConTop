@@ -21,23 +21,55 @@ const  inputdata = [
         labelName : "Email",
         type : "email",
         name : "Email"
-    }
-    
-    
+    },
+    {
+        labelName : "User Name :",
+         type : "text",
+        name : "UserName"
+    },
+    {
+        labelName : "Phone Number :",
+        type : "number",
+        name : "PhoneNumber"
+    },
+    {
+        labelName : "Email :",
+        type : "email",
+        name : "UserEmail"
+    },
+    {
+        labelName : "LinkedIn Profile :",
+        type : "text",
+        name : "LinkedInPro"
+    },
+    {
+        labelName : "Profile Bio :",
+        type : "text",
+        name : "proBio"
+    },
 ]
 
-const Enterinput = (props)=>{
-  
+const Enterinput = ({inputData,proform,name,type,labelName})=>{
 
+    const handleChange = (event) => {
+        if (inputData) {
+          inputData(event);
+        }
+        if (proform) {
+            console.log(event)
+         proform(event);
+        }
+      };
 
-    return(
+      
+      return(
         <>
         <div className="sign-mobile" style={{color:"#323A46"}}>
          
-          <label for="exampleInputEmail1" className="form-label">{props.labelName}</label>
+          <label for="exampleInputEmail1" className="form-label">{labelName}</label>
          <form>
-         <input type={props.type} name={props.name} onChange={props.inputData}
-         
+         <input type={type} name={name} required
+          onChange={handleChange}
          className="form-control enterOtpinput"
          id="exampleInputEmail1"
           aria-describedby="emailHelp"/>

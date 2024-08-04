@@ -4,15 +4,13 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import NavMentor from "../NavMentor";
 import LikeComment from "../../YourProfile/LikeComment";
+import { NavLink } from "react-router-dom";
 
 const HomeMentor = ()=>{
-  useEffect(()=>{
-    Aos.init({duration:1000});
-  },[])
     return(
         <>
         <NavMentor/>
-        <div  data-aos="fade-left">
+        <div>
         <section className="main-homepage-1 d-flex align-items-center overflow-x-hidden">
         <div className="container-fluid" style={{marginTop:"1rem"}}>
 <div className="row">
@@ -33,7 +31,7 @@ const HomeMentor = ()=>{
     <input type="range" className="rangecol" name="" style={{width:"280px" }}/>
     </div>
     <div className="profile">
-    <p>Complete profile </p>
+    <p><NavLink style={{textDecoration:"none"}} exact to="/completepro">Complete Profile</NavLink></p>
     </div>
     </div>
 
@@ -58,8 +56,6 @@ const HomeMentor = ()=>{
 <br></br>
 
 <LikeComment/>
-
-
                 </div>
                 
 </div>

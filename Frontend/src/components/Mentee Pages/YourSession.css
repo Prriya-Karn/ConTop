@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.yoursessionbox{
+    width:22rem;
+    height: 15rem;
+}
+.yoursession-box-button{
+    margin-top: -9rem;
+}
+
+.home-box-mentor{
+    /* background-color: blueviolet; */
+    height: 30rem;
+}
+
+.allcard{
+    /* background-color: orange; */
+    height: 30rem;
+}
+.home-card-bottom{
+    margin-top: 2rem;
+}
+.home-card-bottom a{
+    font-size: 1rem;
+}
