@@ -6,7 +6,7 @@ const data = [
         type:"student",
         degree:"Bachelor",
         city:"Delhi",
-        qualification:"Btech",
+        qualification:"BCA",
         image:"https://picsum.photos/200/301"
 
     },
@@ -36,7 +36,7 @@ const data = [
         type:"student",
         degree:"Bachelor",
         city:"Delhi",
-        qualification:"Btech",
+        qualification:"MBA",
         image:"https://picsum.photos/200/302"
 
     },
@@ -47,7 +47,7 @@ const data = [
         type:"student",
         degree:"Bachelor",
         city:"Delhi",
-        qualification:"Btech",
+        qualification:"BA",
         image:"https://picsum.photos/200/303"
 
     },

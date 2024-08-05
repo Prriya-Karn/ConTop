@@ -1,7 +1,8 @@
-import react from "react";
+import react, { Fragment } from "react";
 import Button, { dataButton } from "./Button";
 import { data } from "./Card";
 import Testimage from "./Testimage";
+import JoinComm, { joinData } from "./JoinCommBox";
 
 const Testimonial = () => {
   return (
@@ -199,6 +200,36 @@ const Testimonial = () => {
             className={dataButton[2].className}
           />
         </div>
+
+{/*--------------------------join our community section-----------------------*/}
+
+<div className="joinCommunity">
+<h2>Join Our Community with</h2>
+<div className="joincomm-box">
+{/*<img src="/Images/sk.png"/>*/}
+
+{
+  joinData.map((e)=>{
+    return(
+      <Fragment>
+      <JoinComm
+      p = {e.p}
+      h1 = {e.h1}
+      />
+      </Fragment>
+    )
+  })
+}
+</div>
+</div>
+
+
+
+
+
+
+
+
       </div>
     </>
   );

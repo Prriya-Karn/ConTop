@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {GiHamburgerMenu} from 'react-icons/gi';
 import { ImCross } from "react-icons/im";
-import { FaBeer } from 'react-icons/fa';
+
 const Navbar = ({className}) => {
   const [showMenu,setShowMenu] = useState(false);
   const [stickNav,setStickNav] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = ({className}) => {
             </li>
             <li><NavLink className="nav-link" exact to="/">
             About Us</NavLink></li>
-            <li><NavLink className="nav-link" exact to="/">Contact Us
+            <li><NavLink className="nav-link" exact to="/contactus">Contact Us
             </NavLink></li>
           </ul>
         </div>

@@ -341,8 +341,9 @@
   
   
   .main-land-card{
-    width: 320px;
-  height: 476px;
+    /* background-color: red !important; */
+    width: 18rem !important;
+  height: 30rem !important;
   flex-shrink: 0;
   
   border-radius: 22px;
@@ -430,7 +431,168 @@
   .carouselCardbackgroundImage2{
     width:399px;height:400px;position:absolute;top:78rem;left:50rem;z-Index: -1;
   }
+
+  .joinCommunity{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    background-color: #ACDEFF;
+    width: 85rem;
+    height: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
   
+  .joinCommunity h2 {
+    color: #fff;
+    text-shadow: 
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Product Sans', sans-serif;
+}
+
+
+  .joincomm-box{
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  .j-box-1{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    background-color: white;
+    width: 24.6875rem;
+height: 9.3125rem;
+border-radius: 1.25rem;
+border: 0.1875rem solid black;
+  }
+  .j-box-1 p{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .j-box-1 h1{
+    font-size: 3.8125rem;
+    font-weight: 400;
+    text-align: center;  
+    margin-top: -1rem; 
+    font-style: italic; 
+  }
+
+  .main-contactus{
+    margin-top: 6rem;
+    display: grid;
+    /* margin-bottom: 20rem; */
+    grid-template-columns: repeat(3,1fr);
+    width: 95rem;
+height: 20.549rem;
+border-top: 0.0625rem solid #00000026;
+  }
+
+
+.contact-logo{
+/* background-color: #C53183; */
+margin-top: 2.5rem;
+height: 15rem;
+width: 26rem;
+border-right:1px solid #00000026;
+}
+.contact-logo img{
+  width: 11.9375rem;
+height: 11.713rem;
+margin: 2rem 0rem 0rem 8rem;
+}
+.contact-find-mentor{
+  height: 15rem;
+  border-right:1px solid #00000026;
+  font-family: 'Product Sans', sans-serif;
+margin-top: 2.5rem;
+display: flex;
+gap: 3rem;
+width: 24.4375rem;
+}
+.contact-find-mentor .left{
+  margin-top: 3rem;
+}
+.contact-find-mentor .left p{
+  color: black;
+}
+.contact-find-mentor .right p{
+  color: black;
+}
+.contact-find-mentor .right{
+  margin-top: 3rem;
+}
+.refund-contact{
+  width: 10rem;
+  
+}
+.contact-find-mentor p{
+  margin-top: 1rem;
+}
+.contact-query{
+/* background-color: orangered; */
+width: 28.8125rem;
+margin-top: 4rem;
+height: 15rem;
+
+}
+
+.contact-query h1{
+  font-size: 1.6875rem;
+  text-align: center;
+  color: #C53183;
+}
+.inner-contact-query{
+  margin-left: 3rem;
+  display: flex;
+  gap: 1rem;
+
+}
+.inner-contact-query img{
+  width: 1.5rem;
+height: 1.5rem;
+}
+
+.address-contact{
+  margin-top: 1rem;
+}
+.phone-contact{
+  margin-top:1rem;
+}
+
+
+
+.footer{
+margin-top: 5rem;
+  width: 90rem;
+height: 3.973rem;
+border-top: 0.0625rem solid #00000026;
+
+}
+
+
+.footer p{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+
+
+
+
   /* responsive carousel card  */
   @media screen and (min-width: 601px) and (max-width: 1024px) {
     .carouselCardbackgroundImage1{

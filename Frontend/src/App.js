@@ -26,6 +26,7 @@ import AuthState from "./context/Authentication/AuthState";
 import YourSession from "./components/Mentee Pages/MenteeYourSession";
 import MenteeYourSession from "./components/Mentee Pages/MenteeYourSession";
 import CompletePro from "./components/MentorPage/CompletePro";
+import Contact from "./components/LandingPage/Contact";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/selectRole" element={<SelectRole/>}/>
         <Route exact path="/hero" element={<LandingPage />} />
+        <Route exact path="/contactus" element={<Contact/>} />
         <Route exact path="*" element={<div><h1>Error page</h1></div>} />
 
 
@@ -54,21 +56,21 @@ function App() {
 
 {/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
-      {/* Mentor Page Routes right side */}
+      {/* Mentor Page Routes  Start*/}
         <Route exact path="/homementor" element={<HomeMentor />} />
         <Route exact path="/mentorbookpage" element={<MentorBookpage />} />
         <Route exact path="/filtermentor" element={<FilterMentor />} />
         <Route exact path="/yoursessionmentor" element={<YourSessionMentor />} />
         <Route exact path="/youranalytics" element={<YourAnalytics />} />
         <Route exact path="/completepro" element={<CompletePro />} />
-        
+         {/* Mentor Page Routes  End */} 
       
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/mentor" element={<Mentor />} />
         
-{/*-----------------------------Mentee start left side--------------------------------------------*/}
+{/*-----------------------------Mentee start--------------------------------------------*/}
         <Route exact path="/yoursession" element={<MenteeYourSession/>} />
         <Route exact path="/HomePage1" element={<Home />} />
         <Route exact path="/bookmentor" element={<BookMentor />} />
