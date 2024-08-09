@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './home.css';
-import Navhome from "./Navhome";
-import Aos from "aos";
+
 import 'aos/dist/aos.css';
 import { NavLink } from "react-router-dom";
 import LikeComment from "../YourProfile/LikeComment";
@@ -9,7 +8,7 @@ import LikeComment from "../YourProfile/LikeComment";
 const HomePage1 = ()=>{
   const [pCont,setPCont] = useState();
   const [subPost,setSubPost] = useState();
-  const [visPhoto,setVisPhoto] = useState(false);
+  // const [visPhoto,setVisPhoto] = useState(false);
 
   const PContent = (event)=>{
     setPCont(event.target.value);
@@ -18,10 +17,10 @@ const HomePage1 = ()=>{
     setSubPost(pCont)
   }
   
-  const photo = ()=>{
-    setVisPhoto(true)
-  }
-
+  // const photo = ()=>{
+  //   setVisPhoto(true)
+  // }
+  
 
 
     return(
