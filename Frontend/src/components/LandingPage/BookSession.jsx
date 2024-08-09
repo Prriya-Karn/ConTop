@@ -5,7 +5,8 @@ const BookSession = ()=>{
     return(
         <>
        <div data-aos="fade-up">
-        <section className="booksession_main d-flex align-items-left overflow-x-hidden">
+        <section className="booksession_main d-flex
+         align-items-left overflow-x-hidden">
         <div className="container-fluid">
 <div className="row">
     <div className="col-lg-10 mx-auto">
@@ -14,7 +15,7 @@ const BookSession = ()=>{
         <div className="row">
         <div className="col-lg-6 col-md-6 col-12 order-2 order-lg-1 column2 book_session_img">
       
-        <img src="./Images/Travels.png"/>
+        <img alt="" src="./Images/Travels.png"/>
      
         </div>
         

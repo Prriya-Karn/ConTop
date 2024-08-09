@@ -354,8 +354,7 @@
   /* Carousel section start */
   
   .main-Carousel{
-    margin-top: 18rem;
-    /* background-color: aqua; */
+    margin-top: 10rem;
     text-align: center;
    
   }
@@ -753,7 +752,7 @@ border-top: 0.0625rem solid #00000026;
   booksession part start */
   .booksession_main{
     margin: 6rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
     display: flex;
   width: 1293px;
   height: 750px;
@@ -893,7 +892,7 @@ border-top: 0.0625rem solid #00000026;
 
 .main-College-box{
 
-  margin:0px 2rem 0px 2rem;
+  margin:-12rem 2rem 0px 2rem;
   text-align: center;
 padding: 6rem 0rem 6rem 0rem;
 border: 2px 2px 0px 2px solid #00000026;
@@ -1108,6 +1107,31 @@ color:transparent;
   margin-top: -5rem;
   margin-left: -1rem;
 }
+.sub-testi-container {
+  position: relative;
+}
+
+.sub-testi {
+  position: relative; }
+
+.sketch {
+  position: absolute;
+  top: 50%; 
+  right: 6rem;
+
+  transform: translateY(-100%); 
+  
+}
+
+.vector {
+  position: absolute;
+  bottom: -20px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 100px; 
+  width: 12.36rem;
+  height: 0.76rem;
+}
 
 
 .row-testi-2{
@@ -1190,8 +1214,12 @@ transform: scale(0.9,0.9);
 cursor: pointer;
 }
 .testimonial_main{
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
+
+
+
+
 
 /* reponsive testimonial */
 

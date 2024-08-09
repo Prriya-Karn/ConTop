@@ -46,9 +46,7 @@ const Hero = ()=>{
 </svg>
         Enhance Your Experience and Learn from
         </div>
-        <br></br>
-
-
+        
         
         <div className="pers">
         Personal Stories

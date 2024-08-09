@@ -4,31 +4,31 @@ const CollegeGo = () => {
     <>
     <div  data-aos="fade-left">
       <div className="link">
-        <img src="./Images/link.png" />
+        <img alt="" src="./Images/link.png" />
 
       </div>
 
-      <div className="main-College-box  mb-5">
+      <div className="main-College-box mb-5">
         <div style={{ width: "5rem", marginTop: "-3rem" }}>
           <div className="side-dot first" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
           <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
           <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
           <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
           <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
           <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>  <div className="side-dot" style={{ display: "flex", justifyContent: "left", alignItems: "left", paddingLeft: "2rem", marginTop: "4rem" }}>
-            <img src="./Images/Ellipse 98.png" />
+            <img alt="" src="./Images/Ellipse 98.png" />
           </div>
         </div>
         <div style={{ marginLeft: "6rem" }}>

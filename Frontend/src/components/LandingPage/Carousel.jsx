@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Carousel_Card from "./Carousel_Card";
-import BookSession from "./BookSession";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
@@ -19,9 +18,9 @@ const Carousel = ()=>{
     
         <Carousel_Card/>
         <div>
-        <img src = "./Images/Ellipse 93.png" className="carouselCardbackgroundImage1"/>
+        <img alt="" src = "./Images/Ellipse 93.png" className="carouselCardbackgroundImage1"/>
     
-        <img src = "./Images/Ellipse 94.png" className="carouselCardbackgroundImage2"/>
+        <img alt="" src = "./Images/Ellipse 94.png" className="carouselCardbackgroundImage2"/>
         </div>
        
        
