@@ -50,20 +50,51 @@
   top:2rem;
   left:4rem;
   }
-  .svg_4{
-    stroke-width: 2.864px;
-    stroke: #000;
-    width: 213.69px;
-  height: 16.888px;
-  flex-shrink: 0;
-  position: absolute;
-  top: 12rem;
-  left:40rem;
+  .svg4-container{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
+  .svg_4 {
+    width: 100px;
+    height: auto;
+    stroke-width: 2.864px;
+      stroke: #000;
+      width: 200px;
+    height: 12px; 
+  }
+
+  
+  .svg-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .head h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  .svg_1, .svg_2, .svg_3 {
+    margin: 0 0.5rem;
+  }
+  .pers{
+  
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+  }
+  
+  .pers .emoji {
+    margin-left: 0.5rem;
+  }  
   .emoji{
-    position: relative;
-    left: 61rem;
-   top: -6.8rem;
     width: 5rem;
   }
   
@@ -84,6 +115,8 @@
     font-style: italic;
     font-weight: 400;
     line-height: normal;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   .pers{

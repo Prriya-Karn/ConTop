@@ -113,7 +113,7 @@ const HomePage1 = ()=>{
     <p>4:30pm - 4:50pm(Asia/ Calcutta)</p>
     </div>
     <div className="modal-card-3 d-flex">
-    <img src="./Images/vd.png"/>
+    <img src="./Images/vd.png" alt=""/>
     <p>Online (video Call)</p>
     </div>
     </div>
