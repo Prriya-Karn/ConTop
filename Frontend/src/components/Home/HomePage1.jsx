@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './home.css';
 import Navhome from "./Navhome";
 import Aos from "aos";
@@ -7,6 +7,23 @@ import { NavLink } from "react-router-dom";
 import LikeComment from "../YourProfile/LikeComment";
 
 const HomePage1 = ()=>{
+  const [pCont,setPCont] = useState();
+  const [subPost,setSubPost] = useState();
+  const [visPhoto,setVisPhoto] = useState(false);
+
+  const PContent = (event)=>{
+    setPCont(event.target.value);
+  }
+  const post = ()=>{
+    setSubPost(pCont)
+  }
+  
+  const photo = ()=>{
+    setVisPhoto(true)
+  }
+
+
+
     return(
         <>
         <div>
@@ -20,14 +37,18 @@ const HomePage1 = ()=>{
     <div className="post-box">
     <div className="post-box-pro">
     <img src="/Images/profile.png"/>
-    <input type="text" placeholder="What’s on your Mind?"/>
+    <input type="text" name = "postContent" onChange={PContent}
+    
+    placeholder="What’s on your Mind?"/>
     </div>
     <div className="post">
     <img src="./Images/selectemoji.png"/>
-    <img src="./Images/photo.png"/>
-    <img src="./Images/more.png"/>
+
+    <img src="./Images/photo.png"/>    
+    <img src="./Images/more.png" type="file"/>
+
     <div className="post-butt">
-    <button>Post</button>
+    <button onClick={post}>Post</button>
     </div>
     
     </div>
@@ -38,7 +59,9 @@ const HomePage1 = ()=>{
     <div className="home-box">
     <p className="mt-4 latest-post">Latest Posts</p>
 
-    <LikeComment/>
+    <LikeComment
+    subPost={subPost}
+    />
     </div>
     
 

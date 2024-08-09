@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const LikeComment = ()=>{
+const LikeComment = ({subPost})=>{
     return(
         <>
         <div>
@@ -10,14 +10,17 @@ const LikeComment = ()=>{
             <h3>Fancie Juhnke</h3>
         </div>
         <div className="yourprofile-p">
-            <p>Masters in Artificial Intelligence | University of Galway, Ireland</p>
+            <p>Masters in Artificial Intelligence |
+             University of Galway, Ireland</p>
 
         </div>
         <div className="your-profile-desc">
-            <p>Lorem ipsum dolor sit amet consectetur.
-                Egestas bibendum vestibulum dolor facilisis
-                odio augue pretium nam. Morbi accumsan risus enim faucibus.
-                Aliquet nisi sed in feugiat nunc posuere id fringilla. <NavLink className="yourProfile-navlink">#ConnectOp</NavLink></p>
+        {
+            subPost?<p>{subPost}
+            <NavLink to="/" className="yourProfile-navlink">#ConnectOp</NavLink>
+            </p>:""
+        }
+            
         </div>
 
         <div className="your-profile-image">
