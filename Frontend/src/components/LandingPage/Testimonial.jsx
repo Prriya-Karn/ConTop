@@ -8,8 +8,7 @@ const Testimonial = () => {
     <>
       <div data-aos="fade-right">
         <section
-          className="testimonial_main d-flex align-items-left overflow-x-hidden"
-        >
+          className="testimonial_main d-flex align-items-left overflow-x-hidden" id="testimonial"> 
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-10 mx-auto">
@@ -28,7 +27,7 @@ const Testimonial = () => {
                 <img alt="" src="./Images/Vector.png" className="vector" />
               </div>
 
-              
+
 
 
 

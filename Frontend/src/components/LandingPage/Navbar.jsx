@@ -7,10 +7,9 @@ const Navbar = ({className}) => {
   const [showMenu,setShowMenu] = useState(false);
   const [stickNav,setStickNav] = useState(false);
 
-  const stickyfunctioncreate = ()=>{
-    window.scrollY>=40?setStickNav(true):setStickNav(false)
-  }
-//  window.addEventListener("scroll",stickyfunctioncreate);
+  // const stickyfunctioncreate = ()=>{
+  //   window.scrollY>=40?setStickNav(true):setStickNav(false)
+  // }
   return (
     <>
     <header className={className}>
@@ -18,7 +17,8 @@ const Navbar = ({className}) => {
       <nav className={stickNav===true?"sticky-navbar":"navbar-section"}>
         {/* logo section*/}
         <div className="nav-logo">
-          <NavLink exact to=""><img src="./Images/logo.png" className=""/></NavLink>
+          <NavLink exact to="/"><img alt="" src="./Images/logo.png"
+           className=""/></NavLink>
         </div>
 
         {/* menu section for desktop*/}
@@ -29,10 +29,10 @@ const Navbar = ({className}) => {
             <li><NavLink className="nav-link" exact to="/completepro">
             Become a Mentor</NavLink>
             </li>
-            <li><NavLink className="nav-link" exact to="/">
-            About Us</NavLink></li>
-            <li><NavLink className="nav-link" exact to="/contactus">Contact Us
-            </NavLink></li>
+            <li><a className="nav-link" href="#testimonial">
+            About Us</a></li>
+            <li><a className="nav-link" href="#contact">Contact Us
+            </a></li>
           </ul>
         </div>
        
