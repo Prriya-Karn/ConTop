@@ -32,7 +32,8 @@ import Contact from "./components/LandingPage/Contact";
 function App() {
   return (
     <>
-      <span className="hero-grad"> <img src="./Images/Group 62.png" style={{ width: "650px", height: "700px", position: "absolute", top: "-1rem", left: "790px", zIndex: -1 }} /></span>
+      <span className="hero-grad"> 
+      <img src="./Images/Group 62.png" alt="" style={{ width: "650px", height: "700px", position: "absolute", top: "-1rem", left: "790px", zIndex: -1 }} /></span>
       <AuthState>
       <Routes>
         {/* Landing Page */}
