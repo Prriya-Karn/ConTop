@@ -8,7 +8,7 @@ const Loginpage2 = () => {
   const {OTP,setOTP} = useContext(AuthContext);
   return (
     <>
-      <Navhome />
+     {/*<Navhome />*/}
       <section
         className="Sign_main d-flex align-items-left overflow-x-hidden"
         style={{ marginTop: "-5rem" }}
@@ -74,12 +74,13 @@ const Loginpage2 = () => {
                     <button className="btn loginPage2Butt">Login with Email instead</button>
                     </p>
 
+                    <NavLink exact to="/HomePage1">
                     <button
                       className="send-otp login-otp login2-verify mt-1 mb-3"
-                      style={{ background: "#3568FF" }}
-                    >
+                      style={{ background: "#3568FF" }}>
                       Verify OTP and Submit
                     </button>
+                    </NavLink>
                     <div className="check-p">
                       <p className="alread-send login-send login2-send">
                         Not a part of CONNECTOP Community?{" "}

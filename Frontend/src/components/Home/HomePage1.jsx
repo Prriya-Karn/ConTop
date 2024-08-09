@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import './home.css';
 
 import 'aos/dist/aos.css';
@@ -35,16 +35,16 @@ const HomePage1 = ()=>{
 
     <div className="post-box">
     <div className="post-box-pro">
-    <img src="/Images/profile.png"/>
+    <img alt="" src="/Images/profile.png"/>
     <input type="text" name = "postContent" onChange={PContent}
     
     placeholder="What’s on your Mind?"/>
     </div>
     <div className="post">
-    <img src="./Images/selectemoji.png"/>
+    <img alt="" src="./Images/selectemoji.png"/>
 
-    <img src="./Images/photo.png"/>    
-    <img src="./Images/more.png" type="file"/>
+    <img alt="" src="./Images/photo.png"/>    
+    <img alt="" src="./Images/more.png" type="file"/>
 
     <div className="post-butt">
     <button onClick={post}>Post</button>
@@ -105,15 +105,15 @@ const HomePage1 = ()=>{
     <p>Mentorship Session with <span>Darren Schuchardt</span></p>
     <div className="modal-img mt-4">
     <div className="modal-card-1 d-flex">
-    <img src="./Images/cl.png"/>
+    <img alt="" src="./Images/cl.png"/>
     <p>22nd Jan 2024</p>
     </div>
     <div className="modal-card-2 d-flex">
-    <img src="./Images/clock.png"/>
+    <img alt="" src="./Images/clock.png"/>
     <p>4:30pm - 4:50pm(Asia/ Calcutta)</p>
     </div>
     <div className="modal-card-3 d-flex">
-    <img src="./Images/vd.png" alt=""/>
+    <img alt="" src="./Images/vd.png"/>
     <p>Online (video Call)</p>
     </div>
     </div>

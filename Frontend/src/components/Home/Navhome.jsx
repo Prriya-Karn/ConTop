@@ -5,7 +5,6 @@ import { ImCross } from "react-icons/im";
 
 import { NavLink } from "react-router-dom";
 const Navhome = ()=>{
-    
         const [showMenu,setShowMenu] = useState(false);
         const [stickNav,setStickNav] = useState(false);
 
@@ -17,20 +16,21 @@ const Navhome = ()=>{
         return (
           <>
           <header className="head-nav mobile-nav">
-            <nav className={stickNav===true?"sticky-navbar":"navbar-section nav-home-section"}>
+            <nav className={stickNav===true?"sticky-navbar":
+              "navbar-section nav-home-section"}>
               {/* logo section*/}
               <div className="nav-logo">
-                <a className="" href="#"><img src="./Images/logo.png"
-                 className="img-fluid" /></a>
+                <img alt="" src="./Images/logo.png"
+                 className="img-fluid" />
               </div>
       
               {/* menu section for desktop*/}
               <div className= {showMenu===true? "tab-menu":"navbar-menu-section"}>
                 <ul className="tab-menu-homePage-ul">
                   <li><NavLink className="nav-link navbar-link-book active"
-                   exact to="/HomePage1"><a href="#">Home</a></NavLink></li>
-                  <li><NavLink exact to="/bookmentor"><a href="#">Book a Mentor</a></NavLink></li>
-                  <li><NavLink exact to="/yoursession"><a href="#">Your Sessions</a></NavLink></li>
+                   exact to="/HomePage1">Home</NavLink></li>
+                  <li><NavLink exact to="/bookmentor">Book a Mentor</NavLink></li>
+                  <li><NavLink exact to="/yoursession">Your Sessions</NavLink></li>
                  </ul>
               </div>
              
@@ -47,7 +47,7 @@ const Navhome = ()=>{
           <div className="input-group mb-3">
           
           <div className= {showMenu ===true ?"tab-testi-img":"testi-img-home"}>
-          <img src='./Images/yourprofileProfile.png' className="img-fluid" style={{width:"2rem", height:"2rem"}}/>
+          <img alt="" src='./Images/yourprofileProfile.png' className="img-fluid" style={{width:"2rem", height:"2rem"}}/>
           </div>
           <button className="btn dropdown-toggle nav-menu" style={{border:"none"}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
           </button>
@@ -58,15 +58,16 @@ const Navhome = ()=>{
           <ul className="dropdown-menu" style={{marginLeft:"12rem",width:"229px",height:"250px",borderRadius:"10px",border:"1px solid  #00000026"}}>
           
           <h1>Priya Karn</h1>
-          <a className="dropdown-item view-pro mb-5" style={{width:"120px",color:"#979797",fontWeight:"400",fontSize:"12px"}} href="#">View Profile</a>
+          <a className="dropdown-item view-pro mb-5"
+           style={{width:"120px",color:"#979797",fontWeight:"400",fontSize:"12px"}} href="#">View Profile</a>
           <div style={{borderBottom:"1px solid #00000026",width:"204px",marginLeft:"14px"}}></div>
           <div style={{width:"180px",height:"110px",position:"relative",top:"10px",left:"20px",gap:"11px",textAlign:"left"}}>
           
           <div className="link-box">
-          <li className="d-flex"><img src="./Images/cale.png"/><a className="dropdown-item" href="#">My Sessions</a></li>
-          <li className="d-flex"><img src="./Images/person_check.png"/><a className="dropdown-item" href="#">Become A Mentor</a></li>
-          <li className="d-flex"><img src="./Images/chat.png"/><a className="dropdown-item" href="#">Feedback</a></li>
-          <li className="d-flex"><img src="./Images/logout.png"/><a className="dropdown-item" style={{color:"#FD0C0C"}} href="#">Logout</a></li>
+          <li className="d-flex"><img alt="" src="./Images/cale.png"/><a className="dropdown-item" href="#">My Sessions</a></li>
+          <li className="d-flex"><img alt="" src="./Images/person_check.png"/><a className="dropdown-item" href="#">Become A Mentor</a></li>
+          <li className="d-flex"><img alt="" src="./Images/chat.png"/><a className="dropdown-item" href="#">Feedback</a></li>
+          <li className="d-flex"><img alt="" src="./Images/logout.png"/><a className="dropdown-item" style={{color:"#FD0C0C"}} href="#">Logout</a></li>
           </div>
           
           </div>
@@ -95,7 +96,7 @@ const Navhome = ()=>{
               <div className="input-group mb-3">
               
               <div className='testi-img'>
-              <img src='./Images/yourprofileProfile.png' className="img-fluid" style={{width:"2rem",height:"2rem"}}/>
+              <img alt="" src='./Images/yourprofileProfile.png' className="img-fluid" style={{width:"2rem",height:"2rem"}}/>
               </div>
               <button className="btn dropdown-toggle nav-menu" style={{border:"none"}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
               </button>
@@ -111,10 +112,10 @@ const Navhome = ()=>{
               <div style={{width:"180px",height:"110px",position:"relative",top:"10px",left:"20px",gap:"11px",textAlign:"left"}}>
               
               <div className="link-box">
-              <li className="d-flex"><img src="./Images/cale.png"/><a className="dropdown-item" href="#">My Sessions</a></li>
-              <li className="d-flex"><img src="./Images/person_check.png"/><a className="dropdown-item" href="#">Become A Mentor</a></li>
-              <li className="d-flex"><img src="./Images/chat.png"/><a className="dropdown-item" href="#">Feedback</a></li>
-              <li className="d-flex"><img src="./Images/logout.png"/><a className="dropdown-item" style={{color:"#FD0C0C"}} href="#">Logout</a></li>
+              <li className="d-flex"><img alt="" src="./Images/cale.png"/><a className="dropdown-item" href="#">My Sessions</a></li>
+              <li className="d-flex"><img alt="" src="./Images/person_check.png"/><a className="dropdown-item" href="#">Become A Mentor</a></li>
+              <li className="d-flex"><img alt="" src="./Images/chat.png"/><a className="dropdown-item" href="#">Feedback</a></li>
+              <li className="d-flex"><img alt="" src="./Images/logout.png"/><a className="dropdown-item" style={{color:"#FD0C0C"}} href="#">Logout</a></li>
               </div>
               
               </div>
