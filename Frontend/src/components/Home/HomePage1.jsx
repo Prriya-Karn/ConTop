@@ -1,28 +1,37 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import './home.css';
-
+import EmojiPicker from 'emoji-picker-react';
 import 'aos/dist/aos.css';
 import { NavLink } from "react-router-dom";
 import LikeComment from "../YourProfile/LikeComment";
 
 const HomePage1 = ()=>{
-  const [pCont,setPCont] = useState();
-  const [subPost,setSubPost] = useState();
-  // const [visPhoto,setVisPhoto] = useState(false);
-
+  const [pCont,setPCont] = useState("");
+  const [subPost,setSubPost] = useState(true);
+  const [photo,setPhoto] = useState(null);
+  
   const PContent = (event)=>{
     setPCont(event.target.value);
   }
   const post = ()=>{
-    setSubPost(pCont)
+    if(subPost===true){
+      setSubPost(pCont)
+    }
   }
-  
-  // const photo = ()=>{
-  //   setVisPhoto(true)
-  // }
-  
+console.log(subPost)
+
+ const imageChoose = (event)=>{
+  setPhoto(event.target.files[0])
+ }
 
 
+const clickPhoto = ()=>{
+ document.querySelector("#photoChoose").click()
+}
+
+console.log(photo)
+
+ 
     return(
         <>
         <div>
@@ -43,7 +52,10 @@ const HomePage1 = ()=>{
     <div className="post">
     <img alt="" src="./Images/selectemoji.png"/>
 
-    <img alt="" src="./Images/photo.png"/>    
+    <input id="photoChoose" type="file" style={{display:"none"}} onChange={imageChoose}/>
+    <img alt="" src="./Images/photo.png" onClick={clickPhoto}/>    
+    
+   
     <img alt="" src="./Images/more.png" type="file"/>
 
     <div className="post-butt">
@@ -57,10 +69,16 @@ const HomePage1 = ()=>{
 
     <div className="home-box">
     <p className="mt-4 latest-post">Latest Posts</p>
+{
+  (subPost===true)?
+  "":<LikeComment
+  subPost={subPost}
+  src={photo}
+ />
+}
+  
 
-    <LikeComment
-    subPost={subPost}
-    />
+    
     </div>
     
 
@@ -89,7 +107,7 @@ const HomePage1 = ()=>{
 
 <div className="home-butt">
 <button className="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-<a href="#"  style={{textDecoration:"none",color:"white"}}>Book A Mentor</a>
+Book A Mentor
 </button>
 </div>
 
@@ -139,8 +157,8 @@ const HomePage1 = ()=>{
 
 <div className="home-butt">
 <button className="btn button">
-<NavLink style={{textDecoration:"none"}} exact to = "/yoursession">
-<a href="#" style={{textDecoration:"none",color:"white"}}>Your Sessions</a> 
+<NavLink style={{textDecoration:"none",color:"white"}} exact to = "/yoursession">
+Your Sessions
 </NavLink>
 
 </button>
@@ -152,8 +170,9 @@ const HomePage1 = ()=>{
     </div>
   
 <div className="home-page-1-like">
-<LikeComment/>
+{/*<LikeComment/>*/}
 </div>
+
 
 
 
